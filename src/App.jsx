@@ -1,9 +1,12 @@
-import './scss/components/_app.scss';
+import './scss/App.scss';
+
+// Pages
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello React</h1>
+      <AboutUs />
     </div>
   );
 }
