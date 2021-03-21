@@ -1,1 +1,98 @@
 @use '../abstracts/index' as *;
+
+.about-section,
+.services-section,
+.faq-section {
+  @include flex(space-between, center, row);
+  min-height: 90vh;
+  padding: 5rem 10rem;
+  .description {
+    z-index: 2;
+    overflow: hidden;
+    flex: 1;
+    padding-right: 5rem;
+    h2 {
+      font-weight: lighter;
+    }
+    .hide {
+      overflow: hidden;
+    }
+  }
+  .splash-text {
+    padding: 3rem 0rem;
+  }
+  .image {
+    z-index: 2;
+    flex: 1;
+    overflow: hidden;
+    opacity: 1;
+    img {
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+    }
+  }
+}
+
+.services-section {
+  @include flex(space-between, center, column);
+  h2 {
+    padding-bottom: 5rem;
+  }
+  .content {
+    @include flex(center, flex-start, row);
+    .description {
+      padding-left: 20rem;
+      order: 2;
+    }
+    .cards {
+      order: 1;
+      @include flex(space-between, flex-start, row);
+      flex-wrap: wrap;
+      .card {
+        background-color: $nav-color;
+        margin: 1rem;
+        flex-basis: 20rem;
+        .icon {
+          @include flex(flex-start, center, row);
+          color: $accent-color;
+          h4 {
+            color: $text-color;
+            margin-left: 1rem;
+            padding: 0.5rem 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.faq-section {
+  display: block;
+  span {
+    display: block;
+  }
+  h2 {
+    padding-bottom: 2rem;
+    font-weight: lighter;
+  }
+  .faq-line {
+    background: $text-color;
+    height: 0.2rem;
+    margin: 2rem 0rem;
+    width: 100%;
+  }
+  h4 {
+    padding: 2rem 0rem;
+    cursor: pointer;
+  }
+  .answer {
+    padding: 2rem 0rem;
+    p {
+      padding: 1rem 0rem;
+    }
+  }
+  .inline {
+    display: inline;
+  }
+}

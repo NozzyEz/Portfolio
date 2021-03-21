@@ -1,0 +1,23 @@
+@use '../abstracts/index' as *;
+
+.nav-bar {
+  min-height: 10vh;
+  @include flex(space-between, center, row);
+  margin: auto;
+  padding: 1rem 10rem;
+  background-color: $nav-color;
+  ul {
+    list-style: none;
+    @include flex(space-evenly, center, row);
+    font-size: $nav-links;
+    li {
+      padding-left: 10rem;
+      position: relative;
+    }
+  }
+  #logo {
+    font-family: 'Fjella One';
+    font-weight: 100;
+    // text-shadow: 3px 3px $background-color;
+  }
+}

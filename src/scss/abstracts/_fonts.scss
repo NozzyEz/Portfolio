@@ -1,7 +1,28 @@
 // Sizes
-$header1: 3.5rem;
-$header2: 5rem;
+$header1: 3.4rem;
+$header2: 4.5rem;
 $header3: 3rem;
 $header4: 2.5rem;
-$paragraph: 1.5rem;
-$inputs: 2rem;
+$nav-links: 2rem;
+$paragraph: 1.9rem;
+
+@font-face {
+  font-family: 'Fjella One';
+  src: url('../../fonts/FjallaOne-Regular.ttf');
+}
+@font-face {
+  font-family: 'Playfair';
+  src: url('../../fonts/PlayfairDisplay-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Playfair-Italic';
+  src: url('../../fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Cinzel';
+  src: url('../../fonts/Cinzel-VariableFont_wght.ttf');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  src: url('../../fonts/JosefinSans-VariableFont_wght.ttf');
+}

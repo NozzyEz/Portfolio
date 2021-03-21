@@ -1,0 +1,30 @@
+@use '../abstracts/index' as *;
+.connect {
+  padding: 5rem 10rem;
+  min-height: 90vh;
+  background-color: $background-color;
+  color: $text-color;
+  overflow: hidden;
+
+  .line {
+    margin-bottom: 4rem;
+  }
+  .container {
+    // @include flex(flex-start, center, column);
+
+    .social-media {
+      @include flex(flex-start, flex-start, row);
+
+      h3 {
+        margin: 1rem 2rem;
+      }
+      .circle {
+        margin: 1rem 0rem;
+        border-radius: 50%;
+        width: 3rem;
+        height: 3rem;
+        background-color: $nav-color;
+      }
+    }
+  }
+}

@@ -1,11 +1,19 @@
 // Components
 import AboutSection from '../components/AboutSection';
+import ServicesSection from '../components/ServicesSection';
+import FaqSection from '../components/FaqSection';
+
+import {motion} from 'framer-motion';
+import {pageAnim} from '../animation';
 
 function AboutUs() {
   return (
-    <div className="about-us">
+    <motion.div variants={pageAnim} initial="hidden" animate="show" exit="exit">
       <AboutSection />
-    </div>
+      {/* todo: redo services to skills */}
+      <ServicesSection />
+      <FaqSection />
+    </motion.div>
   );
 }
 

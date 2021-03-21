@@ -10,23 +10,57 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: 'Fjella One';
+}
+
 h1 {
   font-size: $header1;
 }
 h2 {
   font-size: $header2;
+  font-weight: lighter;
 }
 h3 {
   font-size: $header3;
 }
 h4 {
   font-size: $header4;
+  font-weight: bold;
 }
 
 p {
   font-size: $paragraph;
+
+  color: $paragraph-color;
+  line-height: 150%;
 }
 
 a {
   text-decoration: none;
+  color: $text-color;
+}
+
+span {
+  font-weight: bold;
+  color: $accent-color;
+}
+
+button {
+  // font-weight: bold;
+  font-size: $paragraph;
+  cursor: pointer;
+  padding: 1rem 2.5rem;
+  width: 20rem;
+  border: 3px solid $accent-color;
+  background-color: transparent;
+  color: $text-color;
+  transition: all 0.5s ease;
+  font-family: 'Fjella One';
+  &:hover {
+    background-color: $accent-color;
+    color: $background-color;
+  }
 }

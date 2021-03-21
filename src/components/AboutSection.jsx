@@ -1,31 +1,51 @@
 //Images
-import home1 from '../images/home1.png';
+import home1 from '../images/pexels-luis-gomes-546819.jpg';
+
+import {motion} from 'framer-motion';
+import {divAnim, titleAnim, fadeAnim, titleImgAnim} from '../animation';
+
+import Wave from './Wave';
 
 function AboutSection() {
   return (
-    <div className="main">
+    <div className="about-section">
+      <Wave />
       <div className="description">
-        <div className="title">
+        <motion.div className="title" variants={divAnim} initial="hidden" animate="show">
           <div className="hide">
-            <h2>We work to make</h2>
+            <motion.h2 variants={titleAnim}>Frontend Developer</motion.h2>
           </div>
           <div className="hide">
-            <h2>
-              your <span>dreams</span> come
-            </h2>
+            <motion.h2 variants={titleAnim}>
+              Making your <span>ideas</span> and concepts
+            </motion.h2>
           </div>
           <div className="hide">
-            <h2>true.</h2>
+            <motion.h2 variants={titleAnim}>
+              come to <span>life</span>
+            </motion.h2>
           </div>
-        </div>
-        <p>
-          Contact us for any photography or videography idead that you have. We have proffesionals
-          with amazing skills
-        </p>
-        <button>Contact Us</button>
+        </motion.div>
+        <motion.p variants={fadeAnim} className="splash-text">
+          Helping your organization develop better and more sturdy software platforms for tomorrow
+        </motion.p>
+        <motion.a
+          variants={fadeAnim}
+          href="https://www.linkedin.com/in/mark-sahlgreen-359006122/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>Connect</button>
+        </motion.a>
       </div>
       <div className="image">
-        <img src={home1} alt="guy with a camera" />
+        <motion.img
+          variants={titleImgAnim}
+          initial="hidden"
+          animate="show"
+          src={home1}
+          alt="code"
+        />
       </div>
     </div>
   );
