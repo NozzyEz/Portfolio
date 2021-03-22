@@ -46,7 +46,7 @@ function ProjectDetails() {
                   </div>
                 ))}
               </div>
-              <div className="description">
+              <div className="project-description">
                 <h4>Description:</h4>
                 <div className="line"></div>
                 <p>{project.description}</p>
@@ -57,12 +57,24 @@ function ProjectDetails() {
                     <button>Live Demo</button>
                   </a>
                 )}
-                <a href={project.github} target="_blank" rel="noreferrer" className="project-btn">
-                  <button>GitHub Repository</button>
-                </a>
+                {project.github &&
+                  project.github.map(link => (
+                    <a href={link.url} target="_blank" rel="noreferrer" className="project-btn">
+                      <button>{link.title ? link.title : 'Github Reposity'}</button>
+                    </a>
+                  ))}
               </div>
             </div>
-            <ImgSlider className="slider" images={project.images} />
+            <div className="img-container">
+              <ImgSlider className="slider" images={project.images} />
+              {project.further_info && (
+                <div className="project-description further-info">
+                  <h4>Further Information</h4>
+                  <div className="line"></div>
+                  <p>{project.further_info}</p>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}

@@ -3,7 +3,7 @@ import {Carousel} from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export const ImgSlider = ({images}) => (
-  <Carousel className="img-slider" autoPlay infiniteLoop>
+  <Carousel className="img-slider" autoPlay infiniteLoop showThumbs={false}>
     {images.map(image => (
       <div key={image.image}>
         <img src={image.image} alt="" />
