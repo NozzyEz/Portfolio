@@ -19,7 +19,7 @@ function ProjectDetails() {
   useEffect(() => {
     const currentProject = projects.filter(state => state.url === url);
     setProject(currentProject[0]);
-    console.log(currentProject);
+    // console.log(currentProject);
   }, [projects, url]);
 
   return (
@@ -59,7 +59,13 @@ function ProjectDetails() {
                 )}
                 {project.github &&
                   project.github.map(link => (
-                    <a href={link.url} target="_blank" rel="noreferrer" className="project-btn">
+                    <a
+                      href={link.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="project-btn"
+                      key={link.url}
+                    >
                       <button>{link.title ? link.title : 'Github Reposity'}</button>
                     </a>
                   ))}

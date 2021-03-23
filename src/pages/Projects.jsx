@@ -16,7 +16,6 @@ function Projects() {
             <motion.h2 variants={projectTitleAnim}>{project.title}</motion.h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to={project.url}>
-              {console.log(project)}
               <motion.img src={project.splash} alt="splash img" variants={titleImgAnim} />
             </Link>
           </div>

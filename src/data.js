@@ -10,48 +10,63 @@ import {
 import {faCode, faDatabase, faGem} from '@fortawesome/free-solid-svg-icons';
 
 // NozzyMusic Images
-import nozzyMusicSplash from './images/nozzymusic_1.png';
-import nozzymusic1 from './images/nozzymusic_3.png';
-import nozzymusic2 from './images/nozzymusic_1.png';
-import nozzymusic3 from './images/nozzymusic_2.png';
+import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
+import nozzymusic2 from './images/nozzymusic/nozzymusic_1.png';
+import nozzymusic3 from './images/nozzymusic/nozzymusic_2.png';
 
 // BeatMixr Images
-import beatmixr1 from './images/BeatMixr.png';
-import beatmixr2 from './images/BeatMixr2.png';
+import beatmixr1 from './images/beatmixr/BeatMixr.png';
+import beatmixr2 from './images/beatmixr/BeatMixr2.png';
 
 // mini projects images
-import website1 from './images/website1.png';
-import website2 from './images/website2.png';
-import website3 from './images/website3.png';
-import website4 from './images/website4.png';
-import website5 from './images/website5.png';
-import website6 from './images/website6.png';
-import website7 from './images/website7.png';
-import website8 from './images/website8.png';
-import website9 from './images/website9.png';
+import website1 from './images/web-mp/website1.png';
+import website2 from './images/web-mp/website2.png';
+import website3 from './images/web-mp/website3.png';
+import website4 from './images/web-mp/website4.png';
+import website5 from './images/web-mp/website5.png';
+import website6 from './images/web-mp/website6.png';
+import website7 from './images/web-mp/website7.png';
+import website8 from './images/web-mp/website8.png';
+import website9 from './images/web-mp/website9.png';
 
 // images for todolist
 import todo1 from './images/todo1.png';
 
 // Photon images
-import photon1 from './images/photon2.png';
-import photon2 from './images/photon1.png';
+import photon1 from './images/photon/photon2.png';
+import photon2 from './images/photon/photon1.png';
 
 // animated fashion images
-import fashion1 from './images/fashion1.png';
-import fashion2 from './images/fashion2.png';
-import fashion3 from './images/fashion3.png';
+import fashion1 from './images/fashion-web/fashion1.png';
+import fashion2 from './images/fashion-web/fashion2.png';
+import fashion3 from './images/fashion-web/fashion3.png';
 
 // Zaphyr Images
-import zaphyr1 from './images/dashboard1.png';
-import zaphyr2 from './images/dashboard2.png';
-import zaphyr3 from './images/dashboard3.png';
-import zaphyr4 from './images/dashboard4.PNG';
-import zaphyr5 from './images/dashboard5.PNG';
-import zaphyr6 from './images/dashboard6.PNG';
-import zaphyr7 from './images/dashboard7.PNG';
-import zaphyr8 from './images/dashboard8.PNG';
-import zaphyr9 from './images/dashboard9.jpg';
+import zaphyr1 from './images/zaphyr/dashboard1.png';
+import zaphyr2 from './images/zaphyr/dashboard2.png';
+import zaphyr3 from './images/zaphyr/dashboard3.png';
+import zaphyr4 from './images/zaphyr/dashboard4.PNG';
+import zaphyr5 from './images/zaphyr/dashboard5.PNG';
+import zaphyr6 from './images/zaphyr/dashboard6.PNG';
+import zaphyr7 from './images/zaphyr/dashboard7.PNG';
+import zaphyr8 from './images/zaphyr/dashboard8.PNG';
+import zaphyr9 from './images/zaphyr/dashboard9.jpg';
+
+// NN CHat images
+import nnchat1 from './images/nnchat/nnchat1.PNG';
+import nnchat2 from './images/nnchat/nnchat2.png';
+import nnchat3 from './images/nnchat/nnchat3.PNG';
+import nnchat4 from './images/nnchat/nnchat4.PNG';
+import nnchat5 from './images/nnchat/nnchat5.PNG';
+
+// Misc images
+import pythonDjango from './images/python-django.png';
+
+// Color Picker Images
+import colorPicker1 from './images/colorpicker/colorpicker1.png';
+import colorPicker2 from './images/colorpicker/colorpicker2.png';
+import colorPicker3 from './images/colorpicker/colorpicker3.png';
+import colorPicker4 from './images/colorpicker/colorpicker4.png';
 
 export const technologyData = [
   {
@@ -95,7 +110,7 @@ export const technologyData = [
     level: 5,
   },
   {
-    name: 'RESTful',
+    name: 'RESTful API',
     icon: faCode,
     level: 6,
   },
@@ -128,7 +143,7 @@ export const projectData = [
     technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
     description:
       'My first project using React, featuring importing and playing music tracks from a website called Chillhop. Other noteworthy features include: shuffle mode, repeat one mode, repeat all mode, a playlist, animations when playing music and a darkmode theme',
-    splash: nozzyMusicSplash,
+    splash: nozzymusic2,
 
     images: [
       {
@@ -229,55 +244,100 @@ export const projectData = [
     url: '/projects/zaphyr',
   },
   {
-    title: 'NN Chat - E2EE instant messaging PWA',
+    title: 'NN Chat - E2EE instant messaging web app',
 
-    technologies: [technologyData[0], technologyData[5], technologyData[1]],
-    description: '',
-    splash: undefined,
+    technologies: [technologyData[0], technologyData[1], technologyData[6], technologyData[8]],
+    description:
+      'Social chat app that is fully end-2-end encrypted, designed in such a way that not even the server knows the identity of the user. \n The only way to connect two peers is via physical contact. the app creates a unique QR code for each person, which the other person must scan, once both have done so, they have established a secure connection using AES-128bit, with the initial handshake done with Diffie-Helmann',
+    further_info:
+      'On this app, which speaks to a django server via a REST API, my contribution was on the actual encryption part, making sure that the client encrypts a message on send, and when the other client receives, it decrypts succesfully',
+    splash: nnchat1,
 
     images: [
       {
-        image: undefined,
-        caption: '',
+        image: nnchat1,
+        caption: 'showing off the UI running in a desktop browser',
+      },
+      {
+        image: nnchat2,
+        caption: 'diagram showing how our implementation work with regards to adding a contact',
+      },
+      {
+        image: nnchat3,
+        caption:
+          'showing the app launching the camera and generating a QR code, these two things are used to connect two individuals',
+      },
+      {
+        image: nnchat4,
+        caption: 'conversation overview',
+      },
+      {
+        image: nnchat5,
+        caption: 'sample conversation between two peers',
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NNChat-Vue',
+        title: '',
+      },
+    ],
     url: '/projects/nnchat',
   },
   {
     title: 'Heatster Backend',
 
-    technologies: [technologyData[0], technologyData[5], technologyData[1]],
-    description: '',
-    splash: undefined,
+    technologies: [technologyData[2], technologyData[11], technologyData[8]],
+    description:
+      'A project for university where we made a functional prototype of a smart thermostatic radiator valve system, for which I created a Python/Django backend running off of a Raspberry Pi, which was also my first time creating any sort of backend as well as a REST API',
+    splash: pythonDjango,
 
     images: [
       {
-        image: undefined,
-        caption: '',
+        image: pythonDjango,
+        caption:
+          "being 100% backend, there aren't any nice pictures showing off the system from the perspective of my code",
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/Heatster-Server',
+        title: '',
+      },
+    ],
     url: '/projects/heatster',
   },
   {
     title: 'Color Generator',
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
-    description: '',
-    splash: undefined,
+    description:
+      'Simple Javascript project that I did without much flair for design, as it was more for utility. This is an app that generates you 5 random colors, or less if you locked any out prior to generating. The app allows you to save and load palettes from localStorage',
+    splash: colorPicker1,
 
     images: [
       {
-        image: undefined,
-        caption: '',
+        image: colorPicker1,
+        caption: 'General UI showing off 5 random colors being generated',
+      },
+      {
+        image: colorPicker2,
+        caption: 'save UI for saving your palette to localStorage',
+      },
+      {
+        image: colorPicker3,
+        caption: 'reactive sliders allowing the user fine control for adjusting any color',
+      },
+      {
+        image: colorPicker4,
+        caption: 'the library UI where the user can retreive previously saved palettes',
       },
     ],
     demo: '',
-    github: '',
-    url: '/projects/',
+    github: [],
+    url: '/projects/colorGenerator',
   },
   {
     title: 'BeatMixr',
@@ -298,7 +358,12 @@ export const projectData = [
       },
     ],
     demo: 'https://nozzyez.github.io/NozzyMusic/',
-    github: 'https://github.com/NozzyEz/NozzyMusic',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NozzyMusic',
+        title: '',
+      },
+    ],
     url: '/projects/BeatMixr',
   },
   {
@@ -320,7 +385,12 @@ export const projectData = [
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NozzyMusic',
+        title: '',
+      },
+    ],
     url: '/projects/photon',
   },
   {
@@ -328,7 +398,7 @@ export const projectData = [
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
-      'Small website project made with Javascript using ScrollMagic to do animations throughout, heavily animated with custom page transitions, event aware cursor and lots of effects',
+      'Small website project made with Javascript using ScrollMagic and Gsap to do animations throughout, heavily animated with custom page transitions, event aware cursor and lots of effects',
     splash: fashion1,
 
     images: [
@@ -346,7 +416,12 @@ export const projectData = [
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NozzyMusic',
+        title: '',
+      },
+    ],
     url: '/projects/fashion',
   },
   {
@@ -396,7 +471,12 @@ export const projectData = [
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NozzyMusic',
+        title: '',
+      },
+    ],
     url: '/projects/miniprojects',
   },
 
@@ -415,25 +495,35 @@ export const projectData = [
       },
     ],
     demo: '',
-    github: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/NozzyMusic',
+        title: '',
+      },
+    ],
     url: '/projects/todoapp',
   },
 
-  {
-    title: 'New Project',
+  // {
+  //   title: 'New Project',
 
-    technologies: [technologyData[0], technologyData[5], technologyData[1]],
-    description: '',
-    splash: undefined,
+  //   technologies: [technologyData[0], technologyData[5], technologyData[1]],
+  //   description: '',
+  //   splash: undefined,
 
-    images: [
-      {
-        image: undefined,
-        caption: '',
-      },
-    ],
-    demo: '',
-    github: '',
-    url: '/projects/',
-  },
+  //   images: [
+  //     {
+  //       image: undefined,
+  //       caption: '',
+  //     },
+  //   ],
+  //   demo: '',
+  //   github: [
+  //     {
+  //       url: '',
+  //       title: '',
+  //     },
+  //   ],
+  //   url: '/projects/',
+  // },
 ];
