@@ -15,7 +15,7 @@ function Projects() {
           <div className="project" key={project.title}>
             <motion.h2 variants={projectTitleAnim}>{project.title}</motion.h2>
             <motion.div variants={lineAnim} className="line"></motion.div>
-            <Link to={project.url}>
+            <Link to="/portfolio{project.url}">
               <motion.img src={project.splash} alt="splash img" variants={titleImgAnim} />
             </Link>
           </div>

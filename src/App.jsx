@@ -23,13 +23,13 @@ function App() {
           <Route path="/portfolio" exact>
             <AboutUs />
           </Route>
-          <Route path="/projects" exact>
+          <Route path="/portfolio/projects" exact>
             <Projects />
           </Route>
-          <Route path="/projects/:id">
+          <Route path="/portfolio/projects/:id">
             <ProjectDetails />
           </Route>
-          <Route path="/connect">
+          <Route path="/portfolio/connect">
             <Connect />
           </Route>
         </Switch>

@@ -10,13 +10,13 @@ function Nav() {
       </h1>
       <ul>
         <li>
-          <Link to="/">About</Link>
+          <Link to="/portfolio">About</Link>
         </li>
         <li>
-          <Link to="/projects">The Projects</Link>
+          <Link to="/portfolio/projects">The Projects</Link>
         </li>
         <li>
-          <Link to="/connect">Connect</Link>
+          <Link to="/portfolio/connect">Connect</Link>
         </li>
       </ul>
     </nav>
