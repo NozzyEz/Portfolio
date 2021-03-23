@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="nav-bar">
       <h1>
-        <Link id="logo" to="/">
+        <Link id="logo" to="/portfolio">
           Mark Sahlgreen
         </Link>
       </h1>
