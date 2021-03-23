@@ -63,4 +63,7 @@ button {
     background-color: $accent-color;
     color: $background-color;
   }
+  &:focus {
+    outline: none;
+  }
 }

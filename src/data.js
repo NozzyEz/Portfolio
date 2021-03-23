@@ -335,8 +335,12 @@ export const projectData = [
         caption: 'the library UI where the user can retreive previously saved palettes',
       },
     ],
-    demo: '',
-    github: [],
+    demo: 'https://nozzyez.github.io/Color-Picker/',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/Color-Picker',
+      },
+    ],
     url: '/projects/colorGenerator',
   },
   {
@@ -357,11 +361,10 @@ export const projectData = [
         caption: 'individual tracks can be muted',
       },
     ],
-    demo: 'https://nozzyez.github.io/NozzyMusic/',
+    demo: 'https://nozzyez.github.io/BeatMixr/',
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
-        title: '',
+        url: 'https://github.com/NozzyEz/BeatMixr',
       },
     ],
     url: '/projects/BeatMixr',
@@ -384,10 +387,10 @@ export const projectData = [
         caption: 'features pagination',
       },
     ],
-    demo: '',
+    demo: 'https://nozzyez.github.io/Photon-Web/',
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
+        url: 'https://github.com/NozzyEz/Photon-Web/',
         title: '',
       },
     ],
@@ -415,10 +418,10 @@ export const projectData = [
         caption: 'another cursor effect',
       },
     ],
-    demo: '',
+    demo: 'https://nozzyez.github.io/Animated-Web/',
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
+        url: 'https://github.com/NozzyEz/Animated-Web',
         title: '',
       },
     ],
@@ -473,8 +476,20 @@ export const projectData = [
     demo: '',
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
-        title: '',
+        url: 'https://nozzyez.github.io/Travelly-Web/',
+        title: 'Project 1 demo',
+      },
+      {
+        url: 'https://github.com/NozzyEz/Travelly-Web',
+        title: 'Project 1 GitHub',
+      },
+      {
+        url: 'https://nozzyez.github.io/Photo-Web/',
+        title: 'Project 2 demo',
+      },
+      {
+        url: 'https://github.com/NozzyEz/Photo-Web',
+        title: 'Project 2 GitHub',
       },
     ],
     url: '/projects/miniprojects',
@@ -494,10 +509,10 @@ export const projectData = [
         caption: 'showing off the UI, with the filtering. App also features animation',
       },
     ],
-    demo: '',
+    demo: 'https://nozzyez.github.io/js-todo/',
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
+        url: 'https://github.com/NozzyEz/js-todo',
         title: '',
       },
     ],
