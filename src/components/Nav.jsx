@@ -4,19 +4,19 @@ function Nav() {
   return (
     <nav className="nav-bar">
       <h1>
-        <Link id="logo" to="/portfolio">
+        <Link id="logo" to="/Portfolio">
           Mark Sahlgreen
         </Link>
       </h1>
       <ul>
         <li>
-          <Link to="/portfolio">About</Link>
+          <Link to="/Portfolio">Home</Link>
         </li>
         <li>
-          <Link to="/portfolio/projects">The Projects</Link>
+          <Link to="/Portfolio/projects">The Projects</Link>
         </li>
         <li>
-          <Link to="/portfolio/connect">Connect</Link>
+          <Link to="/Portfolio/connect">Connect</Link>
         </li>
       </ul>
     </nav>

@@ -17,7 +17,7 @@ function ProjectDetails() {
   const [project, setProject] = useState();
 
   useEffect(() => {
-    const currentProject = projects.filter(state => state.url === url);
+    const currentProject = projects.filter(state => `/Portfolio${state.url}` === url);
     setProject(currentProject[0]);
     // console.log(currentProject);
   }, [projects, url]);
