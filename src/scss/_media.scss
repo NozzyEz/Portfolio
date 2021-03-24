@@ -1,0 +1,115 @@
+@use './abstracts/index' as *;
+
+//* Mobile layout
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  body {
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  .nav-bar {
+    @include flex(center, center, row);
+    min-height: 10vh;
+    flex-wrap: wrap;
+    padding: 0;
+    #logo {
+      flex: 1 1 20rem;
+      padding-bottom: 3rem;
+    }
+    ul {
+      flex: 1 1 40rem;
+      margin: 0;
+      li {
+        padding: 0;
+      }
+    }
+  }
+
+  .about-section,
+  .services-section,
+  .faq-section {
+    justify-content: center;
+    padding: 0;
+    margin: 1rem 2rem;
+    flex-wrap: wrap;
+
+    .image {
+      display: none;
+    }
+  }
+  .services-section {
+    margin-bottom: 3rem;
+    .content {
+      .description {
+        padding: 0;
+        .cards {
+          @include flex(center, center, row);
+          .card {
+            padding: 2rem;
+            flex: 1 1 25rem;
+            @include flex(space-between, center, row);
+          }
+        }
+      }
+    }
+  }
+  .work {
+    padding: 0;
+    margin: 1rem 2rem;
+    h2 {
+      font-size: $header1;
+    }
+    .project {
+      padding-bottom: 2rem;
+      img {
+        height: 30rem;
+      }
+    }
+  }
+
+  .project-section {
+    .title {
+      font-size: $header3;
+      text-align: center;
+    }
+    .container {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .img-container {
+        order: 1;
+        margin-bottom: 2rem;
+        .slider {
+          max-width: 100%;
+          img {
+            max-height: 50vh;
+          }
+          .caption {
+            top: 60%;
+            width: 90%;
+          }
+        }
+      }
+      .info {
+        order: 2;
+        width: 100%;
+        @include flex(center, center, column);
+        .tech-container,
+        .project-description {
+          width: 100%;
+        }
+      }
+      .further-info {
+        order: 3;
+      }
+    }
+  }
+  .connect {
+    padding: 0;
+    margin: 2rem 3rem;
+  }
+}

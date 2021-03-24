@@ -73,14 +73,14 @@ function ProjectDetails() {
             </div>
             <div className="img-container">
               <ImgSlider className="slider" images={project.images} />
-              {project.further_info && (
-                <div className="project-description further-info">
-                  <h4>Further Information</h4>
-                  <div className="line"></div>
-                  <p>{project.further_info}</p>
-                </div>
-              )}
             </div>
+            {project.further_info && (
+              <div className="project-description further-info">
+                <h4>Further Information</h4>
+                <div className="line"></div>
+                <p>{project.further_info}</p>
+              </div>
+            )}
           </div>
         </div>
       )}
