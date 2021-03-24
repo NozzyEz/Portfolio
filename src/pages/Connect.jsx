@@ -6,6 +6,7 @@ import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faMailBulk} from '@fortawesome/free-solid-svg-icons';
 
 import Wave from '../components/Wave';
+import ScrollToTop from '../ScrollToTop';
 
 function Connect() {
   return (
@@ -51,6 +52,7 @@ function Connect() {
           </a>
         </motion.div>
       </div>
+      <ScrollToTop />
     </motion.div>
   );
 }
