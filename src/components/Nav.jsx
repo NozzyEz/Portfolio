@@ -1,6 +1,9 @@
-import {Link} from 'react-router-dom';
+import {Link, useLocation} from 'react-router-dom';
+
+import {motion} from 'framer-motion';
 
 function Nav() {
+  const {pathname} = useLocation();
   return (
     <nav className="nav-bar">
       <h1>
@@ -11,12 +14,30 @@ function Nav() {
       <ul>
         <li>
           <Link to="/">Home</Link>
+          <motion.div
+            className="nav-line"
+            transition={{duration: 0.75}}
+            initial={{width: '0%'}}
+            animate={{width: pathname === '/' ? '100%' : '0%'}}
+          />
         </li>
         <li>
           <Link to="/projects">The Projects</Link>
+          <motion.div
+            className="nav-line"
+            transition={{duration: 0.75}}
+            initial={{width: '0%'}}
+            animate={{width: pathname.includes('/projects') ? '100%' : '0%'}}
+          />
         </li>
         <li>
           <Link to="/connect">Connect</Link>
+          <motion.div
+            className="nav-line"
+            transition={{duration: 0.75}}
+            initial={{width: '0%'}}
+            animate={{width: pathname === '/connect' ? '100%' : '0%'}}
+          />
         </li>
       </ul>
     </nav>

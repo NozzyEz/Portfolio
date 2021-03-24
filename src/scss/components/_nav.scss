@@ -6,6 +6,9 @@
   margin: auto;
   padding: 1rem 10rem;
   background-color: $nav-color;
+  position: sticky;
+  top: 0;
+  z-index: 5;
   ul {
     list-style: none;
     @include flex(space-evenly, center, row);
@@ -20,4 +23,11 @@
     font-weight: 100;
     // text-shadow: 3px 3px $background-color;
   }
+}
+
+.nav-line {
+  margin-top: 0.4rem;
+  height: 0.4rem;
+  width: 100%;
+  background: $accent-color;
 }

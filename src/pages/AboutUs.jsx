@@ -5,6 +5,7 @@ import FaqSection from '../components/FaqSection';
 
 import {motion} from 'framer-motion';
 import {pageAnim} from '../animation';
+import ScrollToTop from '../ScrollToTop';
 
 function AboutUs() {
   return (
@@ -13,6 +14,7 @@ function AboutUs() {
       {/* todo: redo services to skills */}
       <ServicesSection />
       <FaqSection />
+      <ScrollToTop />
     </motion.div>
   );
 }

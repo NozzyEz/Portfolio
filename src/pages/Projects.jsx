@@ -4,6 +4,7 @@ import {projectData} from '../data';
 
 import {motion} from 'framer-motion';
 import {pageAnim, lineAnim, projectTitleAnim, titleImgAnim} from '../animation';
+import ScrollToTop from '../ScrollToTop';
 function Projects() {
   const [projects] = useState(projectData);
 
@@ -21,6 +22,7 @@ function Projects() {
           </div>
         );
       })}
+      <ScrollToTop />
     </motion.div>
   );
 }

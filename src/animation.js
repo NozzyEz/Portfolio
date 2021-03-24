@@ -29,8 +29,8 @@ export const fadeAnim = {
 };
 export const scrollAnim = {
   hidden: {opacity: 0, scale: 0.8},
-  show: {opacity: 1, scale: 1, transition: {duration: 0.6}},
-  exit: {opacity: 0, scale: 0.8, transition: {duration: 0.6}},
+  show: {opacity: 1, scale: 1, transition: {duration: 0.4}},
+  exit: {opacity: 0, scale: 0.8, transition: {duration: 0.4}},
 };
 
 export const titleImgAnim = {
