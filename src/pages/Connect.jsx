@@ -5,6 +5,8 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import {faMailBulk} from '@fortawesome/free-solid-svg-icons';
 
+import Wave from '../components/Wave';
+
 function Connect() {
   return (
     <motion.div
@@ -14,6 +16,7 @@ function Connect() {
       animate="show"
       exit="exit"
     >
+      <Wave />
       <motion.h2 className="title" variants={projectTitleAnim}>
         Get in touch!
       </motion.h2>
@@ -26,19 +29,25 @@ function Connect() {
             target="_blank"
             rel="noreferrer"
           >
-            <h3>Connect with me on linkedIn</h3>
+            <h3>
+              <span>Connect</span> with me on linkedIn
+            </h3>
           </a>
         </motion.div>
         <motion.div variants={titleAnim} className="social-media">
           <FontAwesomeIcon icon={faGithub} size="4x" />
           <a href="https://github.com/NozzyEz" target="_blank" rel="noreferrer">
-            <h3>Check out my code</h3>
+            <h3>
+              Check out my <span>Code</span>
+            </h3>
           </a>
         </motion.div>
         <motion.div variants={titleAnim} className="social-media">
           <FontAwesomeIcon icon={faMailBulk} size="4x" />
           <a href="mailto:mark@nozzy.org">
-            <h3>mark@nozzy.org</h3>
+            <h3>
+              <span>Email:</span> mark@nozzy.org
+            </h3>
           </a>
         </motion.div>
       </div>
