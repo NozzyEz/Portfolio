@@ -30,9 +30,9 @@ function ServicesSection() {
                     <FontAwesomeIcon icon={tech.icon} size="3x" />
                     <h4>{tech.name}</h4>
                   </div>
-                  <div className="skill-level">
+                  {/* <div className="skill-level">
                     <h4>{tech.level} / 10</h4>
-                  </div>
+                  </div> */}
                 </div>
               );
             })}

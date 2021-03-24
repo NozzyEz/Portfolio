@@ -55,6 +55,7 @@
       .card {
         background-color: $nav-color;
         margin: 1rem;
+        padding: 1rem;
         flex-basis: 20rem;
         .icon {
           @include flex(flex-start, center, row);

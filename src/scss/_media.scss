@@ -97,10 +97,12 @@
       .info {
         order: 2;
         width: 100%;
+        margin: 0;
         @include flex(center, center, column);
         .tech-container,
         .project-description {
           width: 100%;
+          margin: 0;
         }
       }
       .further-info {

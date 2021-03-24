@@ -31,7 +31,7 @@ function Connect() {
             rel="noreferrer"
           >
             <h3>
-              <span>Connect</span> with me on linkedIn
+              Connect with me on <span>LinkedIn</span>
             </h3>
           </a>
         </motion.div>
@@ -39,7 +39,7 @@ function Connect() {
           <FontAwesomeIcon icon={faGithub} size="4x" />
           <a href="https://github.com/NozzyEz" target="_blank" rel="noreferrer">
             <h3>
-              Check out my <span>Code</span>
+              Check out my <span>code</span> at Github
             </h3>
           </a>
         </motion.div>
@@ -47,7 +47,7 @@ function Connect() {
           <FontAwesomeIcon icon={faMailBulk} size="4x" />
           <a href="mailto:mark@nozzy.org">
             <h3>
-              <span>Email:</span> mark@nozzy.org
+              send me an <span>email</span> at: mark@nozzy.org
             </h3>
           </a>
         </motion.div>

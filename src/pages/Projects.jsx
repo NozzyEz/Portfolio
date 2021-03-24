@@ -14,7 +14,9 @@ function Projects() {
         // console.log(project);
         return (
           <div className="project" key={project.title}>
-            <motion.h2 variants={projectTitleAnim}>{project.title}</motion.h2>
+            <Link to={project.url} className="project-link">
+              <motion.h2 variants={projectTitleAnim}>{project.title}</motion.h2>
+            </Link>
             <motion.div variants={lineAnim} className="line"></motion.div>
             <Link to={project.url}>
               <motion.img src={project.splash} alt="splash img" variants={titleImgAnim} />

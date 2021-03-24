@@ -12,6 +12,9 @@
 .project {
   padding-bottom: 10rem;
   overflow: hidden;
+  .project-link:hover {
+    color: $paragraph-color;
+  }
 
   img {
     width: 100%;
