@@ -50,13 +50,14 @@
     }
     .cards {
       order: 1;
-      @include flex(space-between, flex-start, row);
+      @include flex(flex-start, flex-start, row);
       flex-wrap: wrap;
       .card {
         background-color: $nav-color;
+        width: 20rem;
         margin: 1rem;
         padding: 1rem;
-        flex-basis: 20rem;
+
         .icon {
           @include flex(flex-start, center, row);
           color: $accent-color;

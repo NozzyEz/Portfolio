@@ -13,6 +13,7 @@ import {faCode, faDatabase, faGem} from '@fortawesome/free-solid-svg-icons';
 import graphQL from './icons/GraphQL_Logo.svg';
 import django from './icons/Django_logo.svg';
 import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
+import gitLogo from './icons/git-seeklogo.com.svg';
 
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
@@ -137,6 +138,11 @@ export const technologyData = [
   {
     name: 'Rails',
     icon: rails,
+    isFAIcon: false,
+  },
+  {
+    name: 'Git',
+    icon: gitLogo,
     isFAIcon: false,
   },
 ];
