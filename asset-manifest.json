@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.409e8b7f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.d76ffb91.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.d76ffb91.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.e3421ae0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.4dae0b13.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.4dae0b13.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.4ce9e501.chunk.css": "/Portfolio/static/css/2.4ce9e501.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.4b9b04e6.chunk.js.map": "/Portfolio/static/js/2.4b9b04e6.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/2.4ce9e501.chunk.css.map": "/Portfolio/static/css/2.4ce9e501.chunk.css.map",
-    "static/css/main.409e8b7f.chunk.css.map": "/Portfolio/static/css/main.409e8b7f.chunk.css.map",
+    "static/css/main.e3421ae0.chunk.css.map": "/Portfolio/static/css/main.e3421ae0.chunk.css.map",
     "static/js/2.4b9b04e6.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.4b9b04e6.chunk.js.LICENSE.txt",
     "static/media/BeatMixr.a887f620.png": "/Portfolio/static/media/BeatMixr.a887f620.png",
     "static/media/BeatMixr2.458b8326.png": "/Portfolio/static/media/BeatMixr2.458b8326.png",
@@ -33,6 +33,7 @@
     "static/media/fashion1.e97d830c.png": "/Portfolio/static/media/fashion1.e97d830c.png",
     "static/media/fashion2.b5f5fb8f.png": "/Portfolio/static/media/fashion2.b5f5fb8f.png",
     "static/media/fashion3.8b93641b.png": "/Portfolio/static/media/fashion3.8b93641b.png",
+    "static/media/git-seeklogo.com.5faa58d1.svg": "/Portfolio/static/media/git-seeklogo.com.5faa58d1.svg",
     "static/media/iconfinder_Ruby_on_Rails_2_282804.2214efa6.svg": "/Portfolio/static/media/iconfinder_Ruby_on_Rails_2_282804.2214efa6.svg",
     "static/media/nnchat1.90c3aea0.PNG": "/Portfolio/static/media/nnchat1.90c3aea0.PNG",
     "static/media/nnchat2.f40b1d83.png": "/Portfolio/static/media/nnchat2.f40b1d83.png",
@@ -62,7 +63,7 @@
     "static/js/runtime-main.eb6781d5.js",
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.4b9b04e6.chunk.js",
-    "static/css/main.409e8b7f.chunk.css",
-    "static/js/main.d76ffb91.chunk.js"
+    "static/css/main.e3421ae0.chunk.css",
+    "static/js/main.4dae0b13.chunk.js"
   ]
 }
