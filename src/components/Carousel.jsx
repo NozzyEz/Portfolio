@@ -10,6 +10,7 @@ export const ImgSlider = ({images}) => (
     showThumbs={false}
     showArrows={false}
     swipeable
+    useKeyboardArrows
   >
     {images.map(image => (
       <div key={image.image}>

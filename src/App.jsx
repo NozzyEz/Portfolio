@@ -18,7 +18,7 @@ function App() {
   const location = useLocation();
   const mql = window.matchMedia('(max-width: 500px');
   let mobileView = mql.matches;
-  console.log(mobileView);
+  // console.log(mobileView);
   return (
     <div className="App">
       <Nav />
