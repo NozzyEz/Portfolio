@@ -20,6 +20,7 @@ function FaqSection() {
         <FaqToggle>
           <div className="question">
             <>What can you do?</>
+
             <div className="answer">
               <>
                 I have worked on many projects using various technologies, both frontend and

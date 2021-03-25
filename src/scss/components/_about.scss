@@ -80,6 +80,9 @@
     padding-bottom: 2rem;
     font-weight: lighter;
   }
+  .question-container {
+    @include flex(space-between, center, row);
+  }
   .faq-line {
     background: $text-color;
     height: 0.2rem;
