@@ -27,12 +27,10 @@ function ServicesSection() {
               return (
                 <div className="card" key={tech.name}>
                   <div className="icon">
-                    <FontAwesomeIcon icon={tech.icon} size="3x" />
+                    {tech.isFAIcon && <FontAwesomeIcon icon={tech.icon} size="3x" />}
+                    {!tech.isFAIcon && <img className="nonFA-icon" src={tech.icon} alt="icon" />}
                     <h4>{tech.name}</h4>
                   </div>
-                  {/* <div className="skill-level">
-                    <h4>{tech.level} / 10</h4>
-                  </div> */}
                 </div>
               );
             })}

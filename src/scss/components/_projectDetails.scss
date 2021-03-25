@@ -1,8 +1,8 @@
 @use '../abstracts/index' as *;
 
 .slider {
-  max-width: 70vw;
-  max-height: 70vh;
+  max-width: 65vw;
+  max-height: 65vh;
   position: relative;
   img {
     max-height: 700px;
@@ -36,11 +36,14 @@
   .container {
     margin-top: 1.5rem;
     @include flex(flex-start, flex-start, row);
-    flex-wrap: wrap;
   }
   .info {
     margin: 0rem 2rem;
   }
+  .img-container {
+    @include flex(center, center, column);
+  }
+
   .project-btns {
     @include flex(center, center, column);
 
@@ -58,6 +61,7 @@
   width: 30rem;
   .tech {
     @include flex(flex-start, flex-start, row);
+    margin-bottom: 0.2rem;
     .icon {
       color: $accent-color;
     }

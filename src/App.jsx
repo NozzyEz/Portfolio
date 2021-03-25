@@ -9,11 +9,16 @@ import {AnimatePresence} from 'framer-motion';
 // Pages
 import AboutUs from './pages/AboutUs';
 import Projects from './pages/Projects';
-import ProjectDetails from './pages/ProjectDetails';
+import ProjectView from './pages/ProjectView';
+import MobileProjectView from './pages/MobileProjectView';
+
 import Connect from './pages/Connect';
 
 function App() {
   const location = useLocation();
+  const mql = window.matchMedia('(max-width: 500px');
+  let mobileView = mql.matches;
+  console.log(mobileView);
   return (
     <div className="App">
       <Nav />
@@ -25,9 +30,7 @@ function App() {
           <Route path="/projects" exact>
             <Projects />
           </Route>
-          <Route path="/projects/:id">
-            <ProjectDetails />
-          </Route>
+          <Route path="/projects/:id">{mobileView ? <MobileProjectView /> : <ProjectView />}</Route>
           <Route path="/connect">
             <Connect />
           </Route>

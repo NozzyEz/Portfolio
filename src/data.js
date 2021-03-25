@@ -9,6 +9,11 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import {faCode, faDatabase, faGem} from '@fortawesome/free-solid-svg-icons';
 
+// Non FA Icons
+import graphQL from './icons/GraphQL_Logo.svg';
+import django from './icons/Django_logo.svg';
+import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
+
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
 import nozzymusic2 from './images/nozzymusic/nozzymusic_1.png';
@@ -72,67 +77,67 @@ export const technologyData = [
   {
     name: 'HTML / CSS',
     icon: faHtml5,
-    level: 7,
+    isFAIcon: true,
   },
   {
     name: 'Javascript',
     icon: faJsSquare,
-    level: 6,
+    isFAIcon: true,
   },
   {
     name: 'Python',
     icon: faPython,
-    level: 6,
+    isFAIcon: true,
   },
   {
     name: 'Ruby',
     icon: faGem,
-    level: 4,
+    isFAIcon: true,
   },
   {
     name: 'Java',
     icon: faJava,
-    level: 2,
+    isFAIcon: true,
   },
   {
     name: 'Scss / Sass',
     icon: faSass,
-    level: 6,
+    isFAIcon: true,
   },
   {
     name: 'Vue.JS',
     icon: faVuejs,
-    level: 6,
+    isFAIcon: true,
   },
   {
     name: 'React',
     icon: faReact,
-    level: 5,
+    isFAIcon: true,
   },
   {
     name: 'RESTful API',
     icon: faCode,
-    level: 6,
+    isFAIcon: true,
   },
   {
     name: 'GraphQL',
-    icon: faCode,
-    level: 6,
+    icon: graphQL,
+    isFAIcon: false,
   },
   {
     name: 'PostgresQL',
     icon: faDatabase,
-    level: 5,
+    isFAIcon: true,
   },
   {
     name: 'Django',
-    icon: faCode,
-    level: 4,
+    icon: django,
+    isFAIcon: false,
   },
   {
     name: 'Rails',
-    icon: faCode,
-    level: 3,
+    icon: rails,
+    isFAIcon: false,
   },
 ];
 

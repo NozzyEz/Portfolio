@@ -8,7 +8,7 @@ import {useState, useEffect} from 'react';
 import {ImgSlider} from '../components/Carousel';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-function ProjectDetails() {
+function MobileProjectView() {
   const history = useHistory();
   const url = history.location.pathname;
 
@@ -41,7 +41,12 @@ function ProjectDetails() {
                 <div className="line"></div>
                 {project.technologies.map(technology => (
                   <div className="tech" key={technology.name}>
-                    <FontAwesomeIcon className="icon" icon={technology.icon} size="2x" />
+                    {technology.isFAIcon && (
+                      <FontAwesomeIcon className="icon" icon={technology.icon} size="3x" />
+                    )}
+                    {!technology.isFAIcon && (
+                      <img className="nonFA-icon" src={technology.icon} alt="icon" />
+                    )}
                     <p>{technology.name}</p>
                   </div>
                 ))}
@@ -88,4 +93,4 @@ function ProjectDetails() {
   );
 }
 
-export default ProjectDetails;
+export default MobileProjectView;
