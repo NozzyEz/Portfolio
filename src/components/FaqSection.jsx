@@ -82,7 +82,7 @@ function FaqSection() {
                 <Link to="/connect">
                   <span className="inline">connect</span>
                 </Link>
-                ' (or I guess you could just click the word)
+                ' (or I guess you could just click the word.)
               </>
             </div>
           </div>
