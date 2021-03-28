@@ -27,7 +27,8 @@ function AboutSection() {
           </div>
         </motion.div>
         <motion.p variants={fadeAnim} className="splash-text">
-          Helping your organization develop better and more sturdy software platforms for tomorrow
+          Helping your <span>business</span> develop better and more sturdy software platforms
+          within an <span>Agile</span> enviornment, with an emphasis on <span>UI/UX</span>
         </motion.p>
         <motion.a
           variants={fadeAnim}

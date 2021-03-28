@@ -14,11 +14,14 @@ import graphQL from './icons/GraphQL_Logo.svg';
 import django from './icons/Django_logo.svg';
 import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
 import gitLogo from './icons/git-seeklogo.com.svg';
+import reduxIcon from './icons/redux-seeklogo.com.svg';
 
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
 import nozzymusic2 from './images/nozzymusic/nozzymusic_1.png';
 import nozzymusic3 from './images/nozzymusic/nozzymusic_2.png';
+import nozzymusic4 from './images/nozzymusic/nozzymusic_4.png';
+import nozzymusic5 from './images/nozzymusic/nozzymusic_5.png';
 
 // BeatMixr Images
 import beatmixr1 from './images/beatmixr/BeatMixr.png';
@@ -145,6 +148,11 @@ export const technologyData = [
     icon: gitLogo,
     isFAIcon: false,
   },
+  {
+    name: 'Redux',
+    icon: reduxIcon,
+    isFAIcon: false,
+  },
 ];
 
 export const projectData = [
@@ -159,15 +167,23 @@ export const projectData = [
     images: [
       {
         image: nozzymusic1,
-        caption: 'showing off the UI',
+        caption: 'Showing off the UI',
       },
       {
         image: nozzymusic2,
-        caption: 'playlist revealed tracking the active song',
+        caption: 'Playlist revealed tracking the active song',
       },
       {
         image: nozzymusic3,
-        caption: 'dark mode toggled on, replacing the old color theme with a new one',
+        caption: 'Dark mode toggled on, replacing the old color theme with a new one',
+      },
+      {
+        image: nozzymusic4,
+        caption: 'The UI is responsive and looks great on a mobile device',
+      },
+      {
+        image: nozzymusic5,
+        caption: 'Responsive UI works for tablet sizes as well',
       },
     ],
     demo: 'https://nozzyez.github.io/NozzyMusic/',

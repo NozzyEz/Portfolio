@@ -1,5 +1,6 @@
 import FaqToggle from './FaqToggle';
 import {motion, AnimateSharedLayout} from 'framer-motion';
+import {Link} from 'react-router-dom';
 import {useScroll} from '../hooks';
 import {scrollAnim} from '../animation';
 
@@ -50,7 +51,7 @@ function FaqSection() {
                 I’m versatile and always up for diving into new programming languages, frameworks
                 and methodologies. I don’t consider myself a Javascript, Python or Ruby developer,
                 just <span className="inline">a developer</span>, so if you need me to learn Rust or
-                Dart, Flask or Flutter, I am all in!
+                Dart, Flask or Flutter, or something entirely else, then I am all in!
               </>
             </div>
           </div>
@@ -63,9 +64,11 @@ function FaqSection() {
             </>
             <div className="answer">
               <>
-                Because I consider myself a good team worker, who always strives to do better. I am
-                easy and fun to be around, I am smiling, committed and not afraid to ask questions.
-                Also, I ride a mountainbike, play boardgames and love virtual reality!
+                Because I consider myself a good team worker, who always strives to do better, I
+                never do a job half way, and I always strive to deliver the best result, within the
+                timeframe. I am easy and fun to be around, I am smiling, committed and not afraid to
+                ask questions. Also, I ride a mountainbike, play boardgames and love virtual
+                reality!
               </>
             </div>
           </div>
@@ -76,7 +79,10 @@ function FaqSection() {
             <div className="answer">
               <>
                 That's super easy, scroll to the top and hit '
-                <span className="inline">connect</span>'
+                <Link to="/connect">
+                  <span className="inline">connect</span>
+                </Link>
+                ' (or I guess you could just click the word)
               </>
             </div>
           </div>
