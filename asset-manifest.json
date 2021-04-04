@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.52792c3f.chunk.css",
-    "main.js": "/Portfolio/static/js/main.ebbc9ca4.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.ebbc9ca4.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.2ee9614f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2ee9614f.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.4ce9e501.chunk.css": "/Portfolio/static/css/2.4ce9e501.chunk.css",
@@ -49,8 +49,16 @@
     "static/media/pexels-thisisengineering-3861959.7187848e.jpg": "/Portfolio/static/media/pexels-thisisengineering-3861959.7187848e.jpg",
     "static/media/photon1.55fe3104.png": "/Portfolio/static/media/photon1.55fe3104.png",
     "static/media/photon2.7dbff88a.png": "/Portfolio/static/media/photon2.7dbff88a.png",
+    "static/media/portfolio1.b7faf4dd.png": "/Portfolio/static/media/portfolio1.b7faf4dd.png",
+    "static/media/portfolio2.66f16fed.png": "/Portfolio/static/media/portfolio2.66f16fed.png",
+    "static/media/portfolio3.27c9921f.png": "/Portfolio/static/media/portfolio3.27c9921f.png",
+    "static/media/portfolio4.75040503.png": "/Portfolio/static/media/portfolio4.75040503.png",
     "static/media/python-django.230012ee.png": "/Portfolio/static/media/python-django.230012ee.png",
-    "static/media/redux-seeklogo.com.a9567540.svg": "/Portfolio/static/media/redux-seeklogo.com.a9567540.svg",
+    "static/media/redux-seeklogo.com.2a8b4dda.svg": "/Portfolio/static/media/redux-seeklogo.com.2a8b4dda.svg",
+    "static/media/reignited1.99cf1ff8.png": "/Portfolio/static/media/reignited1.99cf1ff8.png",
+    "static/media/reignited2.20bbf668.png": "/Portfolio/static/media/reignited2.20bbf668.png",
+    "static/media/reignited3.378e380b.png": "/Portfolio/static/media/reignited3.378e380b.png",
+    "static/media/reignited4.3adc59c8.png": "/Portfolio/static/media/reignited4.3adc59c8.png",
     "static/media/rest-api.901f6c5b.svg": "/Portfolio/static/media/rest-api.901f6c5b.svg",
     "static/media/todo1.64d8be94.png": "/Portfolio/static/media/todo1.64d8be94.png",
     "static/media/website1.a399e814.png": "/Portfolio/static/media/website1.a399e814.png",
@@ -68,6 +76,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.4ab49b39.chunk.js",
     "static/css/main.52792c3f.chunk.css",
-    "static/js/main.ebbc9ca4.chunk.js"
+    "static/js/main.2ee9614f.chunk.js"
   ]
 }
