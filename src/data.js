@@ -24,6 +24,18 @@ import nozzymusic3 from './images/nozzymusic/nozzymusic_2.png';
 import nozzymusic4 from './images/nozzymusic/nozzymusic_4.png';
 import nozzymusic5 from './images/nozzymusic/nozzymusic_5.png';
 
+// Reignited images
+import reignited1 from './images/reignited/reignited1.png';
+import reignited2 from './images/reignited/reignited2.png';
+import reignited3 from './images/reignited/reignited3.png';
+import reignited4 from './images/reignited/reignited4.png';
+
+// Portfolio images
+import portfolio1 from './images/portfolio/portfolio1.png';
+import portfolio2 from './images/portfolio/portfolio2.png';
+import portfolio3 from './images/portfolio/portfolio3.png';
+import portfolio4 from './images/portfolio/portfolio4.png';
+
 // BeatMixr Images
 import beatmixr1 from './images/beatmixr/BeatMixr.png';
 import beatmixr2 from './images/beatmixr/BeatMixr2.png';
@@ -157,6 +169,82 @@ export const technologyData = [
 ];
 
 export const projectData = [
+  {
+    title: 'Reignited',
+
+    technologies: [
+      technologyData[0],
+      technologyData[1],
+      technologyData[7],
+      technologyData[14],
+      technologyData[8],
+    ],
+    description:
+      'Website created with React and Redux for state management. Uses Axios to fetch from an API at rawg.io. uses Styled-Components as an alternative to Scss',
+    splash: reignited1,
+
+    images: [
+      {
+        image: reignited1,
+        caption: 'Showing off the general UI',
+      },
+      {
+        image: reignited2,
+        caption: 'game details when clicking on a card',
+      },
+      {
+        image: reignited3,
+        caption: 'game details with screenshots from the game selected',
+      },
+      {
+        image: reignited4,
+        caption: 'searching',
+      },
+    ],
+    demo: 'https://nozzyez.github.io/reignited/',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/reignited',
+        title: '',
+      },
+    ],
+    url: '/projects/reignited',
+  },
+  {
+    title: 'Portfolio',
+
+    technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
+    description:
+      'My personal portfolio website that you are currently browsing. This is my second React project. The Website is animated and fully responsive to work great on Mobile and Tablet devices',
+    splash: portfolio1,
+
+    images: [
+      {
+        image: portfolio1,
+        caption: 'Initial splash screen',
+      },
+      {
+        image: portfolio2,
+        caption: 'expandable faq',
+      },
+      {
+        image: portfolio3,
+        caption: 'project overview on mobile',
+      },
+      {
+        image: portfolio4,
+        caption: 'tech overview on mobile',
+      },
+    ],
+    demo: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/Portfolio',
+        title: '',
+      },
+    ],
+    url: '/projects/portfolio',
+  },
   {
     title: 'NozzyMusic',
 
