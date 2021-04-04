@@ -15,6 +15,7 @@ import django from './icons/Django_logo.svg';
 import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
 import gitLogo from './icons/git-seeklogo.com.svg';
 import reduxIcon from './icons/redux-seeklogo.com.svg';
+import restIcon from './icons/rest-api.svg';
 
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
@@ -120,8 +121,8 @@ export const technologyData = [
   },
   {
     name: 'RESTful API',
-    icon: faCode,
-    isFAIcon: true,
+    icon: restIcon,
+    isFAIcon: false,
   },
   {
     name: 'GraphQL',
