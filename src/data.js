@@ -18,6 +18,7 @@ import reduxIcon from './icons/redux-seeklogo.com.svg';
 import restIcon from './icons/rest-api.svg';
 import androidIcon from './icons/android.svg';
 import pwaIcon from './icons/PWA_logo.svg';
+import sqlIcon from './icons/sql-projekt-ag-logo-vector.svg';
 
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
@@ -135,6 +136,7 @@ export const technologyData = [
   },
   {
     name: 'RESTful API',
+    shortName: 'REST',
     icon: restIcon,
     isFAIcon: false,
   },
@@ -177,6 +179,11 @@ export const technologyData = [
   {
     name: 'Android',
     icon: androidIcon,
+    isFAIcon: false,
+  },
+  {
+    name: 'SQL',
+    icon: sqlIcon,
     isFAIcon: false,
   },
 ];
@@ -308,6 +315,7 @@ export const projectData = [
       technologyData[9],
       technologyData[3],
       technologyData[12],
+      technologyData[17],
       technologyData[10],
     ],
     description:
@@ -418,7 +426,7 @@ export const projectData = [
   {
     title: 'Heatster Backend',
 
-    technologies: [technologyData[2], technologyData[11], technologyData[8]],
+    technologies: [technologyData[2], technologyData[11], technologyData[8], technologyData[17]],
     description:
       'A project for university where we made a functional prototype of a smart thermostatic radiator valve system, for which I created a Python/Django backend running off of a Raspberry Pi, which was also my first time creating any sort of backend as well as a REST API',
     splash: pythonDjango,
