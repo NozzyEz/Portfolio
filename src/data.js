@@ -190,82 +190,6 @@ export const technologyData = [
 
 export const projectData = [
   {
-    title: 'Reignited',
-
-    technologies: [
-      technologyData[0],
-      technologyData[1],
-      technologyData[7],
-      technologyData[14],
-      technologyData[8],
-    ],
-    description:
-      'Website created with React and Redux for state management. Uses Axios to fetch from an API at rawg.io. uses Styled-Components as an alternative to Scss',
-    splash: reignited1,
-
-    images: [
-      {
-        image: reignited1,
-        caption: 'Showing off the general UI',
-      },
-      {
-        image: reignited2,
-        caption: 'game details when clicking on a card',
-      },
-      {
-        image: reignited3,
-        caption: 'game details with screenshots from the game selected',
-      },
-      {
-        image: reignited4,
-        caption: 'searching',
-      },
-    ],
-    demo: 'https://nozzyez.github.io/reignited/',
-    github: [
-      {
-        url: 'https://github.com/NozzyEz/reignited',
-        title: '',
-      },
-    ],
-    url: '/projects/reignited',
-  },
-  {
-    title: 'Portfolio',
-
-    technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
-    description:
-      'My personal portfolio website that you are currently browsing. This is my second React project. The Website is animated and fully responsive to work great on Mobile and Tablet devices',
-    splash: portfolio1,
-
-    images: [
-      {
-        image: portfolio1,
-        caption: 'Initial splash screen',
-      },
-      {
-        image: portfolio2,
-        caption: 'expandable faq',
-      },
-      {
-        image: portfolio3,
-        caption: 'project overview on mobile',
-      },
-      {
-        image: portfolio4,
-        caption: 'tech overview on mobile',
-      },
-    ],
-    demo: '',
-    github: [
-      {
-        url: 'https://github.com/NozzyEz/Portfolio',
-        title: '',
-      },
-    ],
-    url: '/projects/portfolio',
-  },
-  {
     title: 'NozzyMusic',
 
     technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
@@ -380,6 +304,82 @@ export const projectData = [
       },
     ],
     url: '/projects/zaphyr',
+  },
+  {
+    title: 'Portfolio',
+
+    technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
+    description:
+      'My personal portfolio website that you are currently browsing. This is my second React project. The Website is animated and fully responsive to work great on Mobile and Tablet devices',
+    splash: portfolio1,
+
+    images: [
+      {
+        image: portfolio1,
+        caption: 'Initial splash screen',
+      },
+      {
+        image: portfolio2,
+        caption: 'expandable faq',
+      },
+      {
+        image: portfolio3,
+        caption: 'project overview on mobile',
+      },
+      {
+        image: portfolio4,
+        caption: 'tech overview on mobile',
+      },
+    ],
+    demo: '',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/Portfolio',
+        title: '',
+      },
+    ],
+    url: '/projects/portfolio',
+  },
+  {
+    title: 'Reignited',
+
+    technologies: [
+      technologyData[0],
+      technologyData[1],
+      technologyData[7],
+      technologyData[14],
+      technologyData[8],
+    ],
+    description:
+      'Website created with React and Redux for state management. Uses Axios to fetch from an API at rawg.io. uses Styled-Components as an alternative to Scss',
+    splash: reignited1,
+
+    images: [
+      {
+        image: reignited1,
+        caption: 'Showing off the general UI',
+      },
+      {
+        image: reignited2,
+        caption: 'game details when clicking on a card',
+      },
+      {
+        image: reignited3,
+        caption: 'game details with screenshots from the game selected',
+      },
+      {
+        image: reignited4,
+        caption: 'searching',
+      },
+    ],
+    demo: 'https://nozzyez.github.io/reignited/',
+    github: [
+      {
+        url: 'https://github.com/NozzyEz/reignited',
+        title: '',
+      },
+    ],
+    url: '/projects/reignited',
   },
   {
     title: 'NN Chat - E2EE instant messaging web app',
