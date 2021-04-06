@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4a45ad12.chunk.css",
-    "main.js": "/Portfolio/static/js/main.a3f5f2d4.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.a3f5f2d4.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.da4ab62c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.da4ab62c.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.4ce9e501.chunk.css": "/Portfolio/static/css/2.4ce9e501.chunk.css",
@@ -62,6 +62,7 @@
     "static/media/reignited3.378e380b.png": "/Portfolio/static/media/reignited3.378e380b.png",
     "static/media/reignited4.3adc59c8.png": "/Portfolio/static/media/reignited4.3adc59c8.png",
     "static/media/rest-api.901f6c5b.svg": "/Portfolio/static/media/rest-api.901f6c5b.svg",
+    "static/media/sql-projekt-ag-logo-vector.d86b6d4f.svg": "/Portfolio/static/media/sql-projekt-ag-logo-vector.d86b6d4f.svg",
     "static/media/todo1.64d8be94.png": "/Portfolio/static/media/todo1.64d8be94.png",
     "static/media/website1.a399e814.png": "/Portfolio/static/media/website1.a399e814.png",
     "static/media/website2.d15af9f1.png": "/Portfolio/static/media/website2.d15af9f1.png",
@@ -78,6 +79,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.4ab49b39.chunk.js",
     "static/css/main.4a45ad12.chunk.css",
-    "static/js/main.a3f5f2d4.chunk.js"
+    "static/js/main.da4ab62c.chunk.js"
   ]
 }
