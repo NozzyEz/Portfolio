@@ -60,7 +60,7 @@
   background-color: $nav-color;
   width: 30rem;
   .tech {
-    @include flex(flex-start, flex-start, row);
+    @include flex(flex-start, center, row);
     margin-bottom: 0.2rem;
     .icon {
       color: $accent-color;

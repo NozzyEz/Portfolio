@@ -29,7 +29,7 @@ function ServicesSection() {
                   <div className="icon">
                     {tech.isFAIcon && <FontAwesomeIcon icon={tech.icon} size="3x" />}
                     {!tech.isFAIcon && <img className="nonFA-icon" src={tech.icon} alt="icon" />}
-                    <h4>{tech.name}</h4>
+                    <h4>{tech.shortName ? tech.shortName : tech.name}</h4>
                   </div>
                 </div>
               );

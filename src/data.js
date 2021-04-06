@@ -16,6 +16,8 @@ import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
 import gitLogo from './icons/git-seeklogo.com.svg';
 import reduxIcon from './icons/redux-seeklogo.com.svg';
 import restIcon from './icons/rest-api.svg';
+import androidIcon from './icons/android.svg';
+import pwaIcon from './icons/PWA_logo.svg';
 
 // NozzyMusic Images
 import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
@@ -166,6 +168,17 @@ export const technologyData = [
     icon: reduxIcon,
     isFAIcon: false,
   },
+  {
+    name: 'Progressive Web App',
+    shortName: 'PWA',
+    icon: pwaIcon,
+    isFAIcon: false,
+  },
+  {
+    name: 'Android',
+    icon: androidIcon,
+    isFAIcon: false,
+  },
 ];
 
 export const projectData = [
@@ -291,6 +304,7 @@ export const projectData = [
       technologyData[0],
       technologyData[1],
       technologyData[6],
+      technologyData[15],
       technologyData[9],
       technologyData[3],
       technologyData[12],

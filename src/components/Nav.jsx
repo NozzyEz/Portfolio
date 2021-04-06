@@ -22,7 +22,7 @@ function Nav() {
           />
         </li>
         <li>
-          <Link to="/projects">The Projects</Link>
+          <Link to="/projects">Projects</Link>
           <motion.div
             className="nav-line"
             transition={{duration: 0.75}}
