@@ -6,230 +6,248 @@ import {
   faReact,
   faSass,
   faVuejs,
-} from '@fortawesome/free-brands-svg-icons';
-import {faCode, faDatabase, faGem} from '@fortawesome/free-solid-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
+import {faDatabase, faGem} from "@fortawesome/free-solid-svg-icons";
 
 // Non FA Icons
-import graphQL from './icons/GraphQL_Logo.svg';
-import django from './icons/Django_logo.svg';
-import rails from './icons/iconfinder_Ruby_on_Rails_2_282804.svg';
-import gitLogo from './icons/git-seeklogo.com.svg';
-import reduxIcon from './icons/redux-seeklogo.com.svg';
-import restIcon from './icons/rest-api.svg';
-import androidIcon from './icons/android.svg';
-import pwaIcon from './icons/PWA_logo.svg';
-import sqlIcon from './icons/sql-projekt-ag-logo-vector.svg';
+import graphQL from "./icons/GraphQL_Logo.svg";
+import django from "./icons/Django_logo.svg";
+import rails from "./icons/iconfinder_Ruby_on_Rails_2_282804.svg";
+import gitLogo from "./icons/git-seeklogo.com.svg";
+import reduxIcon from "./icons/redux-seeklogo.com.svg";
+import restIcon from "./icons/rest-api.svg";
+import androidIcon from "./icons/android.svg";
+import pwaIcon from "./icons/PWA_logo.svg";
+import sqlIcon from "./icons/sql-projekt-ag-logo-vector.svg";
+import tsIcon from "./icons/Typescript_logo_2020.svg";
+import phpIcon from "./icons/php.svg";
+import laravelIcon from "./icons/laravel.svg";
 
 // NozzyMusic Images
-import nozzymusic1 from './images/nozzymusic/nozzymusic_3.png';
-import nozzymusic2 from './images/nozzymusic/nozzymusic_1.png';
-import nozzymusic3 from './images/nozzymusic/nozzymusic_2.png';
-import nozzymusic4 from './images/nozzymusic/nozzymusic_4.png';
-import nozzymusic5 from './images/nozzymusic/nozzymusic_5.png';
+import nozzymusic1 from "./images/nozzymusic/nozzymusic_3.png";
+import nozzymusic2 from "./images/nozzymusic/nozzymusic_1.png";
+import nozzymusic3 from "./images/nozzymusic/nozzymusic_2.png";
+import nozzymusic4 from "./images/nozzymusic/nozzymusic_4.png";
+import nozzymusic5 from "./images/nozzymusic/nozzymusic_5.png";
 
 // Reignited images
-import reignited1 from './images/reignited/reignited1.png';
-import reignited2 from './images/reignited/reignited2.png';
-import reignited3 from './images/reignited/reignited3.png';
-import reignited4 from './images/reignited/reignited4.png';
+import reignited1 from "./images/reignited/reignited1.png";
+import reignited2 from "./images/reignited/reignited2.png";
+import reignited3 from "./images/reignited/reignited3.png";
+import reignited4 from "./images/reignited/reignited4.png";
 
 // Portfolio images
-import portfolio1 from './images/portfolio/portfolio1.png';
-import portfolio2 from './images/portfolio/portfolio2.png';
-import portfolio3 from './images/portfolio/portfolio3.png';
-import portfolio4 from './images/portfolio/portfolio4.png';
+import portfolio1 from "./images/portfolio/portfolio1.png";
+import portfolio2 from "./images/portfolio/portfolio2.png";
+import portfolio3 from "./images/portfolio/portfolio3.png";
+import portfolio4 from "./images/portfolio/portfolio4.png";
 
 // BeatMixr Images
-import beatmixr1 from './images/beatmixr/BeatMixr.png';
-import beatmixr2 from './images/beatmixr/BeatMixr2.png';
+import beatmixr1 from "./images/beatmixr/BeatMixr.png";
+import beatmixr2 from "./images/beatmixr/BeatMixr2.png";
 
 // mini projects images
-import website1 from './images/web-mp/website1.png';
-import website2 from './images/web-mp/website2.png';
-import website3 from './images/web-mp/website3.png';
-import website4 from './images/web-mp/website4.png';
-import website5 from './images/web-mp/website5.png';
-import website6 from './images/web-mp/website6.png';
-import website7 from './images/web-mp/website7.png';
-import website8 from './images/web-mp/website8.png';
-import website9 from './images/web-mp/website9.png';
+import website1 from "./images/web-mp/website1.png";
+import website2 from "./images/web-mp/website2.png";
+import website3 from "./images/web-mp/website3.png";
+import website4 from "./images/web-mp/website4.png";
+import website5 from "./images/web-mp/website5.png";
+import website6 from "./images/web-mp/website6.png";
+import website7 from "./images/web-mp/website7.png";
+import website8 from "./images/web-mp/website8.png";
+import website9 from "./images/web-mp/website9.png";
 
 // images for todolist
-import todo1 from './images/todo1.png';
+import todo1 from "./images/todo1.png";
 
 // Photon images
-import photon1 from './images/photon/photon2.png';
-import photon2 from './images/photon/photon1.png';
+import photon1 from "./images/photon/photon2.png";
+import photon2 from "./images/photon/photon1.png";
 
 // animated fashion images
-import fashion1 from './images/fashion-web/fashion1.png';
-import fashion2 from './images/fashion-web/fashion2.png';
-import fashion3 from './images/fashion-web/fashion3.png';
+import fashion1 from "./images/fashion-web/fashion1.png";
+import fashion2 from "./images/fashion-web/fashion2.png";
+import fashion3 from "./images/fashion-web/fashion3.png";
 
 // Zaphyr Images
-import zaphyr1 from './images/zaphyr/dashboard1.png';
-import zaphyr2 from './images/zaphyr/dashboard2.png';
-import zaphyr3 from './images/zaphyr/dashboard3.png';
-import zaphyr4 from './images/zaphyr/dashboard4.PNG';
-import zaphyr5 from './images/zaphyr/dashboard5.PNG';
-import zaphyr6 from './images/zaphyr/dashboard6.PNG';
-import zaphyr7 from './images/zaphyr/dashboard7.PNG';
-import zaphyr8 from './images/zaphyr/dashboard8.PNG';
-import zaphyr9 from './images/zaphyr/dashboard9.jpg';
+import zaphyr1 from "./images/zaphyr/dashboard1.png";
+import zaphyr2 from "./images/zaphyr/dashboard2.png";
+import zaphyr3 from "./images/zaphyr/dashboard3.png";
+import zaphyr4 from "./images/zaphyr/dashboard4.PNG";
+import zaphyr5 from "./images/zaphyr/dashboard5.PNG";
+import zaphyr6 from "./images/zaphyr/dashboard6.PNG";
+import zaphyr7 from "./images/zaphyr/dashboard7.PNG";
+import zaphyr8 from "./images/zaphyr/dashboard8.PNG";
+import zaphyr9 from "./images/zaphyr/dashboard9.jpg";
 
 // NN CHat images
-import nnchat1 from './images/nnchat/nnchat1.PNG';
-import nnchat2 from './images/nnchat/nnchat2.png';
-import nnchat3 from './images/nnchat/nnchat3.PNG';
-import nnchat4 from './images/nnchat/nnchat4.PNG';
-import nnchat5 from './images/nnchat/nnchat5.PNG';
+import nnchat1 from "./images/nnchat/nnchat1.PNG";
+import nnchat2 from "./images/nnchat/nnchat2.png";
+import nnchat3 from "./images/nnchat/nnchat3.PNG";
+import nnchat4 from "./images/nnchat/nnchat4.PNG";
+import nnchat5 from "./images/nnchat/nnchat5.PNG";
 
 // Misc images
-import pythonDjango from './images/python-django.png';
+import pythonDjango from "./images/python-django.png";
 
 // Color Picker Images
-import colorPicker1 from './images/colorpicker/colorpicker1.png';
-import colorPicker2 from './images/colorpicker/colorpicker2.png';
-import colorPicker3 from './images/colorpicker/colorpicker3.png';
-import colorPicker4 from './images/colorpicker/colorpicker4.png';
+import colorPicker1 from "./images/colorpicker/colorpicker1.png";
+import colorPicker2 from "./images/colorpicker/colorpicker2.png";
+import colorPicker3 from "./images/colorpicker/colorpicker3.png";
+import colorPicker4 from "./images/colorpicker/colorpicker4.png";
 
 export const technologyData = [
   {
-    name: 'HTML / CSS',
+    name: "HTML / CSS",
     icon: faHtml5,
     isFAIcon: true,
   },
   {
-    name: 'Javascript',
+    name: "Javascript",
     icon: faJsSquare,
     isFAIcon: true,
   },
   {
-    name: 'Python',
+    name: "Python",
     icon: faPython,
     isFAIcon: true,
   },
   {
-    name: 'Ruby',
+    name: "Ruby",
     icon: faGem,
     isFAIcon: true,
   },
   {
-    name: 'Java',
+    name: "Java",
     icon: faJava,
     isFAIcon: true,
   },
   {
-    name: 'Scss / Sass',
+    name: "Scss / Sass",
     icon: faSass,
     isFAIcon: true,
   },
   {
-    name: 'Vue.JS',
+    name: "Vue.JS",
     icon: faVuejs,
     isFAIcon: true,
   },
   {
-    name: 'React',
+    name: "React",
     icon: faReact,
     isFAIcon: true,
   },
   {
-    name: 'RESTful API',
-    shortName: 'REST',
+    name: "RESTful API",
+    shortName: "REST",
     icon: restIcon,
     isFAIcon: false,
   },
   {
-    name: 'GraphQL',
+    name: "GraphQL",
     icon: graphQL,
     isFAIcon: false,
   },
   {
-    name: 'PostgresQL',
+    name: "PostgresQL",
     icon: faDatabase,
     isFAIcon: true,
   },
   {
-    name: 'Django',
+    name: "Django",
     icon: django,
     isFAIcon: false,
   },
   {
-    name: 'Rails',
+    name: "Rails",
     icon: rails,
     isFAIcon: false,
   },
   {
-    name: 'Git',
+    name: "Git",
     icon: gitLogo,
     isFAIcon: false,
   },
   {
-    name: 'Redux',
+    name: "Redux",
     icon: reduxIcon,
     isFAIcon: false,
   },
   {
-    name: 'Progressive Web App',
-    shortName: 'PWA',
+    name: "Progressive Web App",
+    shortName: "PWA",
     icon: pwaIcon,
     isFAIcon: false,
   },
   {
-    name: 'Android',
+    name: "Android",
     icon: androidIcon,
     isFAIcon: false,
   },
   {
-    name: 'SQL',
+    name: "SQL",
     icon: sqlIcon,
+    isFAIcon: false,
+  },
+  {
+    name: "TypeScript",
+    icon: tsIcon,
+    isFAIcon: false,
+  },
+  {
+    name: "PHP",
+    icon: phpIcon,
+    isFAIcon: false,
+  },
+  {
+    name: "Laravel",
+    icon: laravelIcon,
     isFAIcon: false,
   },
 ];
 
 export const projectData = [
   {
-    title: 'NozzyMusic',
+    title: "NozzyMusic",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
     description:
-      'My first project using React, featuring importing and playing music tracks from a website called Chillhop. Other noteworthy features include: shuffle mode, repeat one mode, repeat all mode, a playlist, animations when playing music and a darkmode theme',
+      "My first project using React, featuring importing and playing music tracks from a website called Chillhop. Other noteworthy features include: shuffle mode, repeat one mode, repeat all mode, a playlist, animations when playing music and a darkmode theme",
     splash: nozzymusic2,
 
     images: [
       {
         image: nozzymusic1,
-        caption: 'Showing off the UI',
+        caption: "Showing off the UI",
       },
       {
         image: nozzymusic2,
-        caption: 'Playlist revealed tracking the active song',
+        caption: "Playlist revealed tracking the active song",
       },
       {
         image: nozzymusic3,
-        caption: 'Dark mode toggled on, replacing the old color theme with a new one',
+        caption: "Dark mode toggled on, replacing the old color theme with a new one",
       },
       {
         image: nozzymusic4,
-        caption: 'The UI is responsive and looks great on a mobile device',
+        caption: "The UI is responsive and looks great on a mobile device",
       },
       {
         image: nozzymusic5,
-        caption: 'Responsive UI works for tablet sizes as well',
+        caption: "Responsive UI works for tablet sizes as well",
       },
     ],
-    demo: 'https://nozzyez.github.io/NozzyMusic/',
+    demo: "https://nozzyez.github.io/NozzyMusic/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/NozzyMusic',
-        title: '',
+        url: "https://github.com/NozzyEz/NozzyMusic",
+        title: "",
       },
     ],
-    url: '/projects/NozzyMusic',
+    url: "/projects/NozzyMusic",
   },
   {
-    title: 'Zaphyr - Order Management System',
+    title: "Zaphyr - Order Management System",
 
     technologies: [
       technologyData[0],
@@ -243,26 +261,26 @@ export const projectData = [
       technologyData[10],
     ],
     description:
-      'A fully distributed system. \n The backend is created in Ruby on Rails and handles authentication and authorization as well as managing the database. It connects with the 2 frontend apps created for this project using a GraphQL API. \n First app is a PWA created in Vue, using Ionic as a component library. The second app is a desktop app created in Vue and Electron using Vuetify component library for rapid development',
+      "A fully distributed system. \n The backend is created in Ruby on Rails and handles authentication and authorization as well as managing the database. It connects with the 2 frontend apps created for this project using a GraphQL API. \n First app is a PWA created in Vue, using Ionic as a component library. The second app is a desktop app created in Vue and Electron using Vuetify component library for rapid development",
     splash: zaphyr1,
     further_info:
-      'This is an order management system that I developed for my Bachelor Thesis, with the idea that smaller shops or organizations, can cover their organizational needs for their members. The idea is that each member has the app on their mobile device and can create various orders based on a catalogue of items chosen by the organization, they can then add the items to their basket and choose how to pay, afterwards they can see their order history and check the status of old orders',
+      "This is an order management system that I developed for my Bachelor Thesis, with the idea that smaller shops or organizations, can cover their organizational needs for their members. The idea is that each member has the app on their mobile device and can create various orders based on a catalogue of items chosen by the organization, they can then add the items to their basket and choose how to pay, afterwards they can see their order history and check the status of old orders",
     images: [
       {
         image: zaphyr1,
-        caption: 'Main dashboard after logging in where an overview of an event is shown',
+        caption: "Main dashboard after logging in where an overview of an event is shown",
       },
       {
         image: zaphyr2,
-        caption: 'showing all orders from a date',
+        caption: "showing all orders from a date",
       },
       {
         image: zaphyr3,
-        caption: 'showing a list of users affiliated with the organization',
+        caption: "showing a list of users affiliated with the organization",
       },
       {
         image: zaphyr4,
-        caption: 'login screen for the PWA',
+        caption: "login screen for the PWA",
       },
       {
         image: zaphyr5,
@@ -270,7 +288,7 @@ export const projectData = [
       },
       {
         image: zaphyr6,
-        caption: 'example of a menu item where several of one could be added to the basket',
+        caption: "example of a menu item where several of one could be added to the basket",
       },
       {
         image: zaphyr7,
@@ -278,70 +296,70 @@ export const projectData = [
       },
       {
         image: zaphyr8,
-        caption: 'Order confirmation after payment method has been selected',
+        caption: "Order confirmation after payment method has been selected",
       },
       {
         image: zaphyr9,
         caption:
-          'the credit screen that doubles as a way to share the app with fellow members of the organization',
+          "the credit screen that doubles as a way to share the app with fellow members of the organization",
       },
     ],
-    demo: '',
+    demo: "",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Zaphyr-API-Server',
-        title: 'Github - Backend',
+        url: "https://github.com/NozzyEz/Zaphyr-API-Server",
+        title: "Github - Backend",
       },
       {
-        url: 'https://github.com/NozzyEz/Zaphyr-Client-PWA',
+        url: "https://github.com/NozzyEz/Zaphyr-Client-PWA",
 
-        title: 'Github - PWA',
+        title: "Github - PWA",
       },
       {
-        url: 'https://github.com/NozzyEz/Zaphyr-Dashboard',
+        url: "https://github.com/NozzyEz/Zaphyr-Dashboard",
 
-        title: 'Github - Desktop',
+        title: "Github - Desktop",
       },
     ],
-    url: '/projects/zaphyr',
+    url: "/projects/zaphyr",
   },
   {
-    title: 'Portfolio',
+    title: "Portfolio",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
     description:
-      'My personal portfolio website that you are currently browsing. This is my second React project. The Website is animated and fully responsive to work great on Mobile and Tablet devices',
+      "My personal portfolio website that you are currently browsing. This is my second React project. The Website is animated and fully responsive to work great on Mobile and Tablet devices",
     splash: portfolio1,
 
     images: [
       {
         image: portfolio1,
-        caption: 'Initial splash screen',
+        caption: "Initial splash screen",
       },
       {
         image: portfolio2,
-        caption: 'expandable faq',
+        caption: "expandable faq",
       },
       {
         image: portfolio3,
-        caption: 'project overview on mobile',
+        caption: "project overview on mobile",
       },
       {
         image: portfolio4,
-        caption: 'tech overview on mobile',
+        caption: "tech overview on mobile",
       },
     ],
-    demo: '',
+    demo: "",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Portfolio',
-        title: '',
+        url: "https://github.com/NozzyEz/Portfolio",
+        title: "",
       },
     ],
-    url: '/projects/portfolio',
+    url: "/projects/portfolio",
   },
   {
-    title: 'Reignited',
+    title: "Reignited",
 
     technologies: [
       technologyData[0],
@@ -351,84 +369,84 @@ export const projectData = [
       technologyData[8],
     ],
     description:
-      'Website created with React and Redux for state management. Uses Axios to fetch from an API at rawg.io. uses Styled-Components as an alternative to Scss',
+      "Website created with React and Redux for state management. Uses Axios to fetch from an API at rawg.io. uses Styled-Components as an alternative to Scss",
     splash: reignited1,
 
     images: [
       {
         image: reignited1,
-        caption: 'Showing off the general UI',
+        caption: "Showing off the general UI",
       },
       {
         image: reignited2,
-        caption: 'game details when clicking on a card',
+        caption: "game details when clicking on a card",
       },
       {
         image: reignited3,
-        caption: 'game details with screenshots from the game selected',
+        caption: "game details with screenshots from the game selected",
       },
       {
         image: reignited4,
-        caption: 'searching',
+        caption: "searching",
       },
     ],
-    demo: 'https://nozzyez.github.io/reignited/',
+    demo: "https://nozzyez.github.io/reignited/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/reignited',
-        title: '',
+        url: "https://github.com/NozzyEz/reignited",
+        title: "",
       },
     ],
-    url: '/projects/reignited',
+    url: "/projects/reignited",
   },
   {
-    title: 'NN Chat - E2EE instant messaging web app',
+    title: "NN Chat - E2EE instant messaging web app",
 
     technologies: [technologyData[0], technologyData[1], technologyData[6], technologyData[8]],
     description:
-      'Social chat app that is fully end-2-end encrypted, designed in such a way that not even the server knows the identity of the user. \n The only way to connect two peers is via physical contact. the app creates a unique QR code for each person, which the other person must scan, once both have done so, they have established a secure connection using AES-128bit, with the initial handshake done with Diffie-Helmann',
+      "Social chat app that is fully end-2-end encrypted, designed in such a way that not even the server knows the identity of the user. \n The only way to connect two peers is via physical contact. the app creates a unique QR code for each person, which the other person must scan, once both have done so, they have established a secure connection using AES-128bit, with the initial handshake done with Diffie-Helmann",
     further_info:
-      'On this app, which speaks to a django server via a REST API, my contribution was on the actual encryption part, making sure that the client encrypts a message on send, and when the other client receives, it decrypts succesfully',
+      "On this app, which speaks to a django server via a REST API, my contribution was on the actual encryption part, making sure that the client encrypts a message on send, and when the other client receives, it decrypts succesfully",
     splash: nnchat1,
 
     images: [
       {
         image: nnchat1,
-        caption: 'showing off the UI running in a desktop browser',
+        caption: "showing off the UI running in a desktop browser",
       },
       {
         image: nnchat2,
-        caption: 'diagram showing how our implementation work with regards to adding a contact',
+        caption: "diagram showing how our implementation work with regards to adding a contact",
       },
       {
         image: nnchat3,
         caption:
-          'showing the app launching the camera and generating a QR code, these two things are used to connect two individuals',
+          "showing the app launching the camera and generating a QR code, these two things are used to connect two individuals",
       },
       {
         image: nnchat4,
-        caption: 'conversation overview',
+        caption: "conversation overview",
       },
       {
         image: nnchat5,
-        caption: 'sample conversation between two peers',
+        caption: "sample conversation between two peers",
       },
     ],
-    demo: '',
+    demo: "",
     github: [
       {
-        url: 'https://github.com/NozzyEz/NNChat-Vue',
-        title: '',
+        url: "https://github.com/NozzyEz/NNChat-Vue",
+        title: "",
       },
     ],
-    url: '/projects/nnchat',
+    url: "/projects/nnchat",
   },
   {
-    title: 'Heatster Backend',
+    title: "Heatster Backend",
 
     technologies: [technologyData[2], technologyData[11], technologyData[8], technologyData[17]],
     description:
-      'A project for university where we made a functional prototype of a smart thermostatic radiator valve system, for which I created a Python/Django backend running off of a Raspberry Pi, which was also my first time creating any sort of backend as well as a REST API',
+      "A project for university where we made a functional prototype of a smart thermostatic radiator valve system, for which I created a Python/Django backend running off of a Raspberry Pi, which was also my first time creating any sort of backend as well as a REST API",
     splash: pythonDjango,
 
     images: [
@@ -438,135 +456,135 @@ export const projectData = [
           "being 100% backend, there aren't any nice pictures showing off the system from the perspective of my code",
       },
     ],
-    demo: '',
+    demo: "",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Heatster-Server',
-        title: '',
+        url: "https://github.com/NozzyEz/Heatster-Server",
+        title: "",
       },
     ],
-    url: '/projects/heatster',
+    url: "/projects/heatster",
   },
   {
-    title: 'Color Generator',
+    title: "Color Generator",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
-      'Simple Javascript project that I did without much flair for design, as it was more for utility. This is an app that generates you 5 random colors, or less if you locked any out prior to generating. The app allows you to save and load palettes from localStorage',
+      "Simple Javascript project that I did without much flair for design, as it was more for utility. This is an app that generates you 5 random colors, or less if you locked any out prior to generating. The app allows you to save and load palettes from localStorage",
     splash: colorPicker1,
 
     images: [
       {
         image: colorPicker1,
-        caption: 'General UI showing off 5 random colors being generated',
+        caption: "General UI showing off 5 random colors being generated",
       },
       {
         image: colorPicker2,
-        caption: 'save UI for saving your palette to localStorage',
+        caption: "save UI for saving your palette to localStorage",
       },
       {
         image: colorPicker3,
-        caption: 'reactive sliders allowing the user fine control for adjusting any color',
+        caption: "reactive sliders allowing the user fine control for adjusting any color",
       },
       {
         image: colorPicker4,
-        caption: 'the library UI where the user can retreive previously saved palettes',
+        caption: "the library UI where the user can retreive previously saved palettes",
       },
     ],
-    demo: 'https://nozzyez.github.io/Color-Picker/',
+    demo: "https://nozzyez.github.io/Color-Picker/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Color-Picker',
+        url: "https://github.com/NozzyEz/Color-Picker",
       },
     ],
-    url: '/projects/colorGenerator',
+    url: "/projects/colorGenerator",
   },
   {
-    title: 'BeatMixr',
+    title: "BeatMixr",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
-      'Small JavaScript project using Scss. This project is a beat mixing app where you can blend snares, kicks and hihats to create a unique beat. the App features BPM settings to adjust the speed',
+      "Small JavaScript project using Scss. This project is a beat mixing app where you can blend snares, kicks and hihats to create a unique beat. the App features BPM settings to adjust the speed",
     splash: beatmixr1,
 
     images: [
       {
         image: beatmixr1,
-        caption: 'features three tracks, one for each type of drum, and a BPM slider',
+        caption: "features three tracks, one for each type of drum, and a BPM slider",
       },
       {
         image: beatmixr2,
-        caption: 'individual tracks can be muted',
+        caption: "individual tracks can be muted",
       },
     ],
-    demo: 'https://nozzyez.github.io/BeatMixr/',
+    demo: "https://nozzyez.github.io/BeatMixr/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/BeatMixr',
+        url: "https://github.com/NozzyEz/BeatMixr",
       },
     ],
-    url: '/projects/BeatMixr',
+    url: "/projects/BeatMixr",
   },
   {
-    title: 'Photon',
+    title: "Photon",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
-      'Photon is a project I made which fetches data and imports images from Pexels.com. \n The app allows you to search the pexels database via their API and find images according to the query',
+      "Photon is a project I made which fetches data and imports images from Pexels.com. \n The app allows you to search the pexels database via their API and find images according to the query",
     splash: photon1,
 
     images: [
       {
         image: photon1,
-        caption: 'finds images based on the search query',
+        caption: "finds images based on the search query",
       },
       {
         image: photon2,
-        caption: 'features pagination',
+        caption: "features pagination",
       },
     ],
-    demo: 'https://nozzyez.github.io/Photon-Web/',
+    demo: "https://nozzyez.github.io/Photon-Web/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Photon-Web/',
-        title: '',
+        url: "https://github.com/NozzyEz/Photon-Web/",
+        title: "",
       },
     ],
-    url: '/projects/photon',
+    url: "/projects/photon",
   },
   {
-    title: 'Animated Fashion Website',
+    title: "Animated Fashion Website",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
-      'Small website project made with Javascript using ScrollMagic and Gsap to do animations throughout, heavily animated with custom page transitions, event aware cursor and lots of effects',
+      "Small website project made with Javascript using ScrollMagic and Gsap to do animations throughout, heavily animated with custom page transitions, event aware cursor and lots of effects",
     splash: fashion1,
 
     images: [
       {
         image: fashion1,
-        caption: 'shows the custom cursor reacting to being on top of a button',
+        caption: "shows the custom cursor reacting to being on top of a button",
       },
       {
         image: fashion2,
-        caption: 'plenty of CSS magic being compiled with Scss',
+        caption: "plenty of CSS magic being compiled with Scss",
       },
       {
         image: fashion3,
-        caption: 'another cursor effect',
+        caption: "another cursor effect",
       },
     ],
-    demo: 'https://nozzyez.github.io/Animated-Web/',
+    demo: "https://nozzyez.github.io/Animated-Web/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/Animated-Web',
-        title: '',
+        url: "https://github.com/NozzyEz/Animated-Web",
+        title: "",
       },
     ],
-    url: '/projects/fashion',
+    url: "/projects/fashion",
   },
   {
-    title: 'Website mini projects',
+    title: "Website mini projects",
 
     technologies: [technologyData[0], technologyData[5]],
     description:
@@ -576,65 +594,65 @@ export const projectData = [
     images: [
       {
         image: website1,
-        caption: 'first html/css based layout, features full screen layouts',
+        caption: "first html/css based layout, features full screen layouts",
       },
       {
         image: website2,
-        caption: 'using linear gradients and animations in subtle ways',
+        caption: "using linear gradients and animations in subtle ways",
       },
       {
         image: website3,
-        caption: 'first html/css based layout, features full screen layouts',
+        caption: "first html/css based layout, features full screen layouts",
       },
       {
         image: website4,
-        caption: 'first html/css based layout, features full screen layouts',
+        caption: "first html/css based layout, features full screen layouts",
       },
       {
         image: website5,
-        caption: 'responsive by design',
+        caption: "responsive by design",
       },
       {
         image: website6,
-        caption: 'second website is also responsive',
+        caption: "second website is also responsive",
       },
       {
         image: website7,
-        caption: 'uses a mixture of flex and grid based layouts',
+        caption: "uses a mixture of flex and grid based layouts",
       },
       {
         image: website8,
-        caption: 'uses a mixture of flex and grid based layouts',
+        caption: "uses a mixture of flex and grid based layouts",
       },
       {
         image: website9,
-        caption: '',
+        caption: "",
       },
     ],
-    demo: '',
+    demo: "",
     github: [
       {
-        url: 'https://nozzyez.github.io/Travelly-Web/',
-        title: 'Project 1 demo',
+        url: "https://nozzyez.github.io/Travelly-Web/",
+        title: "Project 1 demo",
       },
       {
-        url: 'https://github.com/NozzyEz/Travelly-Web',
-        title: 'Project 1 GitHub',
+        url: "https://github.com/NozzyEz/Travelly-Web",
+        title: "Project 1 GitHub",
       },
       {
-        url: 'https://nozzyez.github.io/Photo-Web/',
-        title: 'Project 2 demo',
+        url: "https://nozzyez.github.io/Photo-Web/",
+        title: "Project 2 demo",
       },
       {
-        url: 'https://github.com/NozzyEz/Photo-Web',
-        title: 'Project 2 GitHub',
+        url: "https://github.com/NozzyEz/Photo-Web",
+        title: "Project 2 GitHub",
       },
     ],
-    url: '/projects/miniprojects',
+    url: "/projects/miniprojects",
   },
 
   {
-    title: 'Todo list app',
+    title: "Todo list app",
 
     technologies: [technologyData[0], technologyData[5], technologyData[1]],
     description:
@@ -644,17 +662,17 @@ export const projectData = [
     images: [
       {
         image: todo1,
-        caption: 'showing off the UI, with the filtering. App also features animation',
+        caption: "showing off the UI, with the filtering. App also features animation",
       },
     ],
-    demo: 'https://nozzyez.github.io/js-todo/',
+    demo: "https://nozzyez.github.io/js-todo/",
     github: [
       {
-        url: 'https://github.com/NozzyEz/js-todo',
-        title: '',
+        url: "https://github.com/NozzyEz/js-todo",
+        title: "",
       },
     ],
-    url: '/projects/todoapp',
+    url: "/projects/todoapp",
   },
 
   // {
