@@ -22,6 +22,7 @@ import sqlIcon from "./icons/sql-projekt-ag-logo-vector.svg";
 import tsIcon from "./icons/Typescript_logo_2020.svg";
 import phpIcon from "./icons/php.svg";
 import laravelIcon from "./icons/laravel.svg";
+import tailwindIcon from "./icons/tailwind-css-seeklogo.com.svg";
 
 // NozzyMusic Images
 import nozzymusic1 from "./images/nozzymusic/nozzymusic_3.png";
@@ -187,6 +188,11 @@ export const technologyData = [
   {
     name: "SQL",
     icon: sqlIcon,
+    isFAIcon: false,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwindIcon,
     isFAIcon: false,
   },
   {
