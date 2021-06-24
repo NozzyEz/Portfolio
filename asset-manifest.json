@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4a45ad12.chunk.css",
-    "main.js": "/Portfolio/static/js/main.dcb6e118.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.dcb6e118.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.0784e6ae.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0784e6ae.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.eb6781d5.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.eb6781d5.js.map",
     "static/css/2.4ce9e501.chunk.css": "/Portfolio/static/css/2.4ce9e501.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/Django_logo.e9cfd05c.svg": "/Portfolio/static/media/Django_logo.e9cfd05c.svg",
     "static/media/GraphQL_Logo.db32eb3a.svg": "/Portfolio/static/media/GraphQL_Logo.db32eb3a.svg",
     "static/media/PWA_logo.cff20d79.svg": "/Portfolio/static/media/PWA_logo.cff20d79.svg",
+    "static/media/Typescript_logo_2020.6c5d2888.svg": "/Portfolio/static/media/Typescript_logo_2020.6c5d2888.svg",
     "static/media/android.b86292cc.svg": "/Portfolio/static/media/android.b86292cc.svg",
     "static/media/colorpicker1.ab264d42.png": "/Portfolio/static/media/colorpicker1.ab264d42.png",
     "static/media/colorpicker2.0e9f5d86.png": "/Portfolio/static/media/colorpicker2.0e9f5d86.png",
@@ -37,6 +38,7 @@
     "static/media/fashion3.8b93641b.png": "/Portfolio/static/media/fashion3.8b93641b.png",
     "static/media/git-seeklogo.com.5faa58d1.svg": "/Portfolio/static/media/git-seeklogo.com.5faa58d1.svg",
     "static/media/iconfinder_Ruby_on_Rails_2_282804.2214efa6.svg": "/Portfolio/static/media/iconfinder_Ruby_on_Rails_2_282804.2214efa6.svg",
+    "static/media/laravel.3df99bba.svg": "/Portfolio/static/media/laravel.3df99bba.svg",
     "static/media/nnchat1.90c3aea0.PNG": "/Portfolio/static/media/nnchat1.90c3aea0.PNG",
     "static/media/nnchat2.f40b1d83.png": "/Portfolio/static/media/nnchat2.f40b1d83.png",
     "static/media/nnchat3.1189f099.PNG": "/Portfolio/static/media/nnchat3.1189f099.PNG",
@@ -51,6 +53,7 @@
     "static/media/pexels-thisisengineering-3861959.7187848e.jpg": "/Portfolio/static/media/pexels-thisisengineering-3861959.7187848e.jpg",
     "static/media/photon1.55fe3104.png": "/Portfolio/static/media/photon1.55fe3104.png",
     "static/media/photon2.7dbff88a.png": "/Portfolio/static/media/photon2.7dbff88a.png",
+    "static/media/php.a54382a2.svg": "/Portfolio/static/media/php.a54382a2.svg",
     "static/media/portfolio1.b7faf4dd.png": "/Portfolio/static/media/portfolio1.b7faf4dd.png",
     "static/media/portfolio2.66f16fed.png": "/Portfolio/static/media/portfolio2.66f16fed.png",
     "static/media/portfolio3.27c9921f.png": "/Portfolio/static/media/portfolio3.27c9921f.png",
@@ -79,6 +82,6 @@
     "static/css/2.4ce9e501.chunk.css",
     "static/js/2.4ab49b39.chunk.js",
     "static/css/main.4a45ad12.chunk.css",
-    "static/js/main.dcb6e118.chunk.js"
+    "static/js/main.0784e6ae.chunk.js"
   ]
 }
