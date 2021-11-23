@@ -1,19 +1,19 @@
 //Images
-import home1 from '../images/pexels-luis-gomes-546819.jpg';
+import home1 from "../images/pexels-luis-gomes-546819.jpg";
 
-import {motion} from 'framer-motion';
-import {divAnim, titleAnim, fadeAnim, titleImgAnim} from '../animation';
+import {motion} from "framer-motion";
+import {divAnim, titleAnim, fadeAnim, titleImgAnim} from "../animation";
 
-import Wave from './Wave';
+import Wave from "./Wave";
 
-function AboutSection() {
+function HeroSection() {
   return (
     <div className="about-section">
       <Wave />
       <div className="description">
         <motion.div className="title" variants={divAnim} initial="hidden" animate="show">
           <div className="hide">
-            <motion.h2 variants={titleAnim}>Frontend Developer</motion.h2>
+            <motion.h2 variants={titleAnim}>Software Developer</motion.h2>
           </div>
           <div className="hide">
             <motion.h2 variants={titleAnim}>
@@ -28,7 +28,13 @@ function AboutSection() {
         </motion.div>
         <motion.p variants={fadeAnim} className="splash-text">
           Helping your <span>business</span> develop better and more sturdy software platforms
-          within an <span>Agile</span> enviornment, with an emphasis on <span>UI/UX</span>
+          within an <span>Agile</span> enviornment.
+        </motion.p>
+        <motion.p variants={fadeAnim} className="splash-text">
+          With a flair for both <span>UI/UX</span> and <span>Backend</span> I am the ideal candidate
+          for your business, <span>scroll</span> down for an overview of the technologies I have
+          worked with. or skip to the <span>projects</span> above to see a sample of what I have
+          done so far
         </motion.p>
         <motion.a
           variants={fadeAnim}
@@ -52,4 +58,4 @@ function AboutSection() {
   );
 }
 
-export default AboutSection;
+export default HeroSection;

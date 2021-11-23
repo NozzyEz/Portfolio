@@ -214,45 +214,6 @@ export const technologyData = [
 
 export const projectData = [
   {
-    title: "NozzyMusic",
-
-    technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
-    description:
-      "My first project using React, featuring importing and playing music tracks from a website called Chillhop. Other noteworthy features include: shuffle mode, repeat one mode, repeat all mode, a playlist, animations when playing music and a darkmode theme",
-    splash: nozzymusic2,
-
-    images: [
-      {
-        image: nozzymusic1,
-        caption: "Showing off the UI",
-      },
-      {
-        image: nozzymusic2,
-        caption: "Playlist revealed tracking the active song",
-      },
-      {
-        image: nozzymusic3,
-        caption: "Dark mode toggled on, replacing the old color theme with a new one",
-      },
-      {
-        image: nozzymusic4,
-        caption: "The UI is responsive and looks great on a mobile device",
-      },
-      {
-        image: nozzymusic5,
-        caption: "Responsive UI works for tablet sizes as well",
-      },
-    ],
-    demo: "https://nozzyez.github.io/NozzyMusic/",
-    github: [
-      {
-        url: "https://github.com/NozzyEz/NozzyMusic",
-        title: "",
-      },
-    ],
-    url: "/projects/NozzyMusic",
-  },
-  {
     title: "Zaphyr - Order Management System",
 
     technologies: [
@@ -363,6 +324,45 @@ export const projectData = [
       },
     ],
     url: "/projects/portfolio",
+  },
+  {
+    title: "NozzyMusic",
+
+    technologies: [technologyData[0], technologyData[5], technologyData[1], technologyData[7]],
+    description:
+      "My first project using React, featuring importing and playing music tracks from a website called Chillhop. Other noteworthy features include: shuffle mode, repeat one mode, repeat all mode, a playlist, animations when playing music and a darkmode theme",
+    splash: nozzymusic2,
+
+    images: [
+      {
+        image: nozzymusic1,
+        caption: "Showing off the UI",
+      },
+      {
+        image: nozzymusic2,
+        caption: "Playlist revealed tracking the active song",
+      },
+      {
+        image: nozzymusic3,
+        caption: "Dark mode toggled on, replacing the old color theme with a new one",
+      },
+      {
+        image: nozzymusic4,
+        caption: "The UI is responsive and looks great on a mobile device",
+      },
+      {
+        image: nozzymusic5,
+        caption: "Responsive UI works for tablet sizes as well",
+      },
+    ],
+    demo: "https://nozzyez.github.io/NozzyMusic/",
+    github: [
+      {
+        url: "https://github.com/NozzyEz/NozzyMusic",
+        title: "",
+      },
+    ],
+    url: "/projects/NozzyMusic",
   },
   {
     title: "Reignited",
