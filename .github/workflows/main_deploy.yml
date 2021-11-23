@@ -2,7 +2,7 @@ name: MainDeployCI
 on:
   push:
     branches:
-      - main
+      - mains
 jobs:
   build:
     runs-on: ubuntu-latest
