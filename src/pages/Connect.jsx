@@ -1,12 +1,12 @@
-import {motion} from 'framer-motion';
-import {fadeAnim, connectAnim, projectTitleAnim, titleAnim} from '../animation';
+import {motion} from "framer-motion";
+import {fadeAnim, connectAnim, projectTitleAnim, titleAnim} from "../animation";
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {faMailBulk} from '@fortawesome/free-solid-svg-icons';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import {faMailBulk} from "@fortawesome/free-solid-svg-icons";
 
-import Wave from '../components/Wave';
-import ScrollToTop from '../ScrollToTop';
+import Wave from "../components/Wave";
+import ScrollToTop from "../ScrollToTop";
 
 function Connect() {
   return (
@@ -19,7 +19,7 @@ function Connect() {
     >
       <Wave />
       <motion.h2 className="title" variants={projectTitleAnim}>
-        Get in touch!
+        Get in touch with me!
       </motion.h2>
       <motion.div variants={fadeAnim} className="line"></motion.div>
       <div className="container">
