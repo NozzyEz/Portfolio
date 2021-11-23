@@ -19,7 +19,7 @@ function Connect() {
     >
       <Wave />
       <motion.h2 className="title" variants={projectTitleAnim}>
-        Get in touch!
+        Get in touch with me!
       </motion.h2>
       <motion.div variants={fadeAnim} className="line"></motion.div>
       <div className="container">
